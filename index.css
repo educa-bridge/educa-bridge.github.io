@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: #007bff;
+    color: black;
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #007bff;
+    color: black;
 }
 
 .section p {
@@ -100,7 +100,7 @@ body {
 }
 
 .partners h2 {
-    color: #007bff;
+    color: black;
 }
 
 .investors {
@@ -109,7 +109,7 @@ body {
 }
 
 .investors h2 {
-    color: #007bff;
+    color: black;
 }
 
 .investors form {
@@ -126,12 +126,12 @@ body {
 }
 
 .investors .btn-primary {
-    background-color: #007bff;
+    background-color: black;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
 }
 
 .investors .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: black;
 }
