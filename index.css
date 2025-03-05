@@ -6,15 +6,12 @@ body {
     color: #333;
 }
 
-
-
 /* Navigation Bar */
-.navbar {
-    background-color: rgb(102, 51, 51);
-    color: red;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.navbar.navbar-light {
+    background-color: #b2f7ef !important; /* Force override Bootstrap styles */
+    color: #b2f7ef;
     position: fixed;
-    top: 0;
+    top: 0rem;
     width: 100%;
     z-index: 1000;
 }
@@ -29,14 +26,13 @@ body {
     font-weight: bold;
 }
 
-.hero-section {
-    height: 100vh; /* Full viewport height */
-    position: relative;
-    overflow: hidden;
+.home-content {
+    margin-top: -1rem;
 }
 
 .carousel {
-    height: 100%;
+    background-color: #eff7f6; /* Replace with your desired color */
+    height: 60vh;
 }
 
 .carousel-inner {
