@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduBridge</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Styles importados-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
@@ -43,32 +48,39 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="container">
-            <h1>EduBridge</h1>
-            <p>The Leading Fintech Powering the Global Talent of Tomorrow.</p>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About</h2>
-            <p>With EduBridge, you're not just funding your education - you're unlocking your future. No cosigner, no collateral, just access.</p>
-            <p>We're the leading fintech powering the global talent of tomorrow, offering flexible student loans designed for international students from emerging markets.</p>
+    <!-- Carousel -->
+    <section class="home-content">
+        <div class="carousel">
+            <!--Proyecto 1 aquí.-->
+            <div class="project">
+              <div class="project-images">
+                <img src="img/Image1.PNG" alt="Image Slide 1">
+              </div>
+              <h3>Title</h3>
+              <p>Texto</p>
+              <a href="HTML" class="btn">Get Started</a>
+            </div>
+            <!--Proyecto 2 aquí.-->
+            <div class="project">
+              <div class="project-images">
+                <img src="img/Image2.PNG" alt="Image Slide 2">
+              </div>
+              <h3>Title</h3>
+              <p>Texto</p>
+              <a href="HTML" class="btn">How It Works</a>
+            </div>
+            <!--Proyecto 3 aquí.-->
+            <div class="project">
+                <div class="project-images">
+                    <img src="img/Image3.PNG" alt="Image Slide 3">
+                </div>
+              <h3>Title</h3>
+              <p>Texto</p>
+              <a href="HTML" class="btn">Success Stories</a>
+            </div>
+            <!--(Agregar más slides aquí si es necesario).-->
         </div>
     </section>
-
-    <!-- Get Started Section -->
-    <section class="get-started section">
-        <div class="container">
-            <h2>Get Started</h2>
-            <p><strong>ESTO ES UN PANEL</strong></p>
-            <p><em>how it works, success stories</em></p>
-        </div>
-    </section>
-
     <!-- Partners Section -->
     <section class="partners section">
         <div class="container">
@@ -97,5 +109,27 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!--JS extensions para carousel, animaciones, etc.-->
+    <script>
+        function toggleMenu() {
+        document.querySelector('nav').classList.toggle('active');
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Extensión para carousel.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><script>
+        $(document).ready(function(){
+          $('.carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+          }).on('init', function(){
+            $('.carousel').addClass('initialized');
+          });
+        });
+    </script>
 </body>
 </html>
