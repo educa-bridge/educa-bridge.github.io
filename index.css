@@ -1,14 +1,15 @@
+/* ESTILO DEFAULT */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 70px; /* Add padding to body to account for fixed navbar height */
+    padding-top: 70px;
     color: #333;
 }
 
-/* Navigation Bar */
+/* Menu (navegacion) */
 .navbar.navbar-light {
-    background-color: #b2f7ef !important; /* Force override Bootstrap styles */
+    background-color: #b2f7ef !important;
     color: #b2f7ef;
     position: fixed;
     top: 0rem;
@@ -16,6 +17,7 @@ body {
     z-index: 1000;
 }
 
+/* Logo EduBridge */
 .navbar-brand .logo {
     height: 40px;
     width: auto;
@@ -26,12 +28,13 @@ body {
     font-weight: bold;
 }
 
+/* SECTION #1 - Carousel */
 .home-content {
     margin-top: -1rem;
 }
 
 .carousel {
-    background-color: #eff7f6; /* Replace with your desired color */
+    background-color: #eff7f6;
     height: 60vh;
 }
 
@@ -94,6 +97,7 @@ body {
     color: #555;
 }
 
+/* SECTION #2 - Our Partners */
 .partners {
     background-color: #ffffff;
     text-align: center;
@@ -103,6 +107,7 @@ body {
     color: black;
 }
 
+/* SECTION #3 - Become an Investor */
 .investors {
     background-color: #f8f9fa;
     text-align: center;
