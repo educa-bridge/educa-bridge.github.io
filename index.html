@@ -27,10 +27,18 @@
             <a class="navbar-brand" href="#">
                 <img src="logo.png" alt="EduBridge Logo" class="logo">
             </a>
-            <!-- Banderas por pais -->
-            <a class="navbar-brand" href="#">
-                <img src="logo.png" alt="USA Flag" class="flags">
-            </a>
+            <!-- Banderas por pais (Dropdown) -->
+            <div class="country-selector">
+                <select id="country-select">
+                    <option value="USA" src="img/USA-flag.png">United States</option>
+                    <option value="MEX" src="img/MEX-flag.png">Mexico</option>
+                    <option value="PER" src="img/PER-flag.png">Peru</option>
+                    <option value="BZL" src="img/BZL-flag.png">Brazil</option>
+                    <!-- Más países luego -->
+                </select>
+                <img id="selected-flag" src="img/USA-flag.png" alt="Selected Flag" class="flag-icon">
+            </div>
+            <!-- Iniciando opciones para el Menu (navegacion) -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -143,6 +151,22 @@
             $('.carousel').addClass('initialized');
           });
         });
+    </script>
+    <!--Cambio de banderas (selection).-->
+    <script>
+        document.getElementById('country-select').addEventListener('change', function() {
+            const selectedOption = this.options[this.selectedIndex];
+            const flagPath = selectedOption.getAttribute('src');
+            document.getElementById('selected-flag').src = flagPath;
+        });
+
+        // Inicializando bandera en home page.
+        window.onload = function() {
+            const select = document.getElementById('country-select');
+            const selectedOption = select.options[select.selectedIndex];
+            const flagPath = selectedOption.getAttribute('src');
+            document.getElementById('selected-flag').src = flagPath;
+        };
     </script>
 
 </body>
