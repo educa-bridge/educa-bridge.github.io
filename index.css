@@ -73,7 +73,7 @@ body {
 
 .carousel {
     background-color: #eff7f6;
-    height: 60vh;
+    height: 50vh;
 }
 
 .carousel-item {
@@ -91,21 +91,23 @@ body {
     color: white;
 }
 
-.project h3 {
+.project1 h3 {
     color: black;
     font-weight: 590;
     font-size: 1.5rem;
     width: 750px;
     margin-top: -20rem;
     margin-left: 2.5rem;
+    line-height: 2.5rem;
 }
 
-.project p {
+.project1 p {
     color: black;
     font-size: 1.15rem;
     margin-top: 2rem;
     margin-left: 2.5rem;
     width: 700px;
+    line-height: 2.1rem;
 }
 
 .project-images {
@@ -115,18 +117,23 @@ body {
 
 .project-images img {
     width: 500px;
-    border-radius: 8px;
+    height: auto;
 }
 
-.get-started {
+.project1 a {
     background-color: #b2f7ef;
     text-align: center;
+    margin-left: 2.6rem;
+    margin-top: 4rem;
+    border-radius: 20px;
+    width: 170px;
+    font-size: 1.3rem;
 }
 
-.get-started p {
-    font-size: 1.2rem;
-    color: #555;
+.carousel.slick-prev.slick-next.slick-dots .slick-dots {
+    margin-top:10rem;
 }
+
 
 /* SECTION #2 - Our Partners */
 
