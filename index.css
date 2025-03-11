@@ -136,6 +136,18 @@ body {
 
 
 /* SECTION #2 - Our Partners */
+.partners {
+    height: 50vh;
+    background-color: #b2f7ef;
+}
+
+.partners-content h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    margin-left: 2.6rem;
+}
+
 
 
 /* SECTION #3 - Become an Investor */
