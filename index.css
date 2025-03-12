@@ -72,7 +72,6 @@ body {
 }
 
 .carousel {
-    background-color: #eff7f6;
     height: 50vh;
 }
 
@@ -88,7 +87,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: #eff7f6;
 }
 
 .project1 h3 {
@@ -133,6 +132,34 @@ body {
 .carousel.slick-prev.slick-next.slick-dots .slick-dots {
     margin-top:10rem;
 }
+
+.slick-dots {
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 20px; /* Add some margin to separate the dots from the carousel */
+    display: flex;
+    justify-content: center;
+    margin-left: -2.5%;
+    align-items: center;
+    list-style: none;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #b2f7ef; /* Customize the color of the dots */
+    opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #40e0d0; /* Customize the color of the active dot */
+    opacity: 1;
+}
+
 
 
 /* SECTION #2 - Our Partners */
