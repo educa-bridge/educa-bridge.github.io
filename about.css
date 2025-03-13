@@ -72,6 +72,12 @@ body {
     text-decoration: underline;
 }
 
+/* Active Navigation Link */
+.nav-item.active .nav-link {
+    color: black !important;
+    text-decoration: underline;
+}
+
 /* Texto para slogan de country selector */
 .text-country h4 {
     color: black;
