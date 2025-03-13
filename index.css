@@ -33,9 +33,20 @@ body {
 /* Opciones del menu */
 .navbar-nav .nav-link {
     color: black;
-    font-weight: bold;
+    font-size: 1.05rem;
+    font-weight: 600;
     margin-top: 4.7rem;
     margin-left: 2rem;
+}
+
+.navbar-nav .nav-login {
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    position: absolute;
+    top: 4.7rem;
+    right: 240px;
+    z-index: 1100;
 }
 
 /* Texto para slogan de country selector */
