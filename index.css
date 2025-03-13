@@ -256,20 +256,28 @@ body {
 
 /* SECTION #2 - Our Partners */
 .partners {
-    height: 50vh;
-    background-color: #b2f7ef;
+    height: 13vh;
+    background-color: #eff7f6;
     padding: 2rem 0;
     text-align: center;
 }
 
 .partners-content h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: black;
     margin-bottom: 2rem;
+    margin-top: 1.6rem;
 }
 
-.partners-container {
+.partners-logos {
+    height: 17vh;
+    background-color: #b2f7ef;
+    padding: 1.1rem 0;
+    text-align: center;
+}
+
+.partners-logos .partners-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,41 +287,76 @@ body {
     margin: 0 auto;
 }
 
-.partners-container img {
-    max-width: 150px;
+.partners-logos .partners-container img {
+    max-width: 100px;
     height: auto;
 }
 
 /* SECTION #3 - Become an Investor */
-.investors {
-    background-color: #f8f9fa;
+.investors-section {
+    background-color: #eff7f6;
+    padding: 4rem 0;
     text-align: center;
 }
 
-.investors h2 {
+.investors-section h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
     color: black;
+    margin-bottom: 1rem;
 }
 
-.investors form {
+.investors-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.investors-section h6 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.investors-section form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: transparent;
+    padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.investors .form-label {
+.investors-section .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.investors-section .form-label {
     font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
 }
 
-.investors .btn-primary {
-    background-color: black;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
+.investors-section .form-control {
+    width: 100%; /* Full-width inputs */
+    padding: 0.75rem; /* Add padding to inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Font size for inputs */
 }
 
-.investors .btn-primary:hover {
+.investors-section .btn-primary {
     background-color: black;
+    color: white; /* White text for the button */
+    border: none; /* Remove border */
+    padding: 0.75rem 2rem; /* Add padding to the button */
+    font-size: 1rem; /* Font size for the button */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+.investors-section .btn-primary:hover {
+    background-color: #333; /* Darker background on hover */
 }
