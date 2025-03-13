@@ -132,7 +132,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 100%; /* Ensure the content takes full width */
+    width: 100%;
 }
 
 /* SECTION #1 - Carousel */
@@ -142,8 +142,8 @@ body {
 }
 
 .carousel {
-    height: 55vh; /* Increase the height to accommodate more content */
-    overflow: visible; /* Ensure content is not clipped */
+    height: 55vh;
+    overflow: visible;
     background-color: #eff7f6;
     padding: 0;
     margin: 0;
@@ -156,12 +156,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 100%; /* Ensure the content takes full width */
+    width: 100%;
 }
 
 /* SLIDE #1 */
 .project1 {
-    position: relative; /* Ensure the button is positioned relative to the project1 container */
+    position: relative;
     top: 2.5rem;
     right: -1rem;
     height: 55vh;
@@ -212,25 +212,25 @@ body {
     bottom: 10px;
     left: 2.6rem;
     z-index: 100;
-    transition: all 0.3s ease; /* Smooth transition for all properties */
+    transition: all 0.3s ease;
 }
 
 .project1 .get-started a:hover {
     background-color: #71f0e1;
     color: black;
-    transform: translateY(-5px); /* Move the button up slightly on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Carousel buttons (dots) */
 .slick-dots {
     position: absolute;
     height: 4vh;
-    bottom: -30px; /* Adjust this value to position the dots correctly */
+    bottom: -30px;
     width: 100%;
     text-align: center;
-    padding: 0; /* Remove padding if not needed */
-    margin: 0; /* Remove margin if not needed */
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,12 +240,12 @@ body {
 
 .slick-dots li button:before {
     font-size: 10px;
-    color: #b2f7ef; /* Customize the color of the dots */
+    color: #b2f7ef;
     opacity: 0.75;
 }
 
 .slick-dots li.slick-active button:before {
-    color: #40e0d0; /* Customize the color of the active dot */
+    color: #40e0d0;
     opacity: 1;
 }
 
