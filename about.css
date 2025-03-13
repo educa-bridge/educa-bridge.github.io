@@ -111,4 +111,17 @@ body {
     pointer-events: none;
 }
 
-/* SECTION #1 -  */
+/* SECTION #1 -  ABOUT */
+.about-section .description {
+    font-size: 3rem;
+}
+
+.about-section .project-image {
+    margin-top: 3rem;
+    margin-left: 55rem;
+}
+
+.about-section .project-images img {
+    width: 200px;
+    height: auto;
+}
