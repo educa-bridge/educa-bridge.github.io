@@ -10,6 +10,7 @@ body {
 /* Menu (navegacion) */
 .navbar.navbar-light {
     background-color: #b2f7ef !important;
+    border-bottom: 1px solid #40e0d0;
     color: #b2f7ef;
     position: fixed;
     top: 0rem;
