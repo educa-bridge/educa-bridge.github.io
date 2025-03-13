@@ -5,6 +5,7 @@ body {
     padding: 0;
     padding-top: 70px;
     color: #333;
+    background-color: #eff7f6;
 }
 
 /* Menu (navegacion) */
@@ -257,7 +258,7 @@ body {
 
 /* SECTION #2 - Our Partners */
 .partners {
-    height: 13vh;
+    height: 12vh;
     background-color: #eff7f6;
     padding: 2rem 0;
     text-align: center;
@@ -272,9 +273,9 @@ body {
 }
 
 .partners-logos {
-    height: 17vh;
+    height: 15vh;
     background-color: #b2f7ef;
-    padding: 1.1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 

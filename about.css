@@ -4,6 +4,7 @@ body {
     padding: 0;
     padding-top: 70px;
     color: #333;
+    background-color: #eff7f6;
 }
 
 /* Menu (navegacion) */
@@ -112,16 +113,45 @@ body {
 }
 
 /* SECTION #1 -  ABOUT */
-.about-section .description {
-    font-size: 3rem;
+.about-section {
+    background-color: #eff7f6;
+    margin-bottom: 5rem;
 }
 
-.about-section .project-image {
-    margin-top: 3rem;
-    margin-left: 55rem;
+.about-section .description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    padding-top: 3rem;
+    margin-top: 3.8rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.about-section .project-images {
+    max-width: 40%;
+    text-align: center;
+    margin-left: 27rem;
 }
 
 .about-section .project-images img {
-    width: 200px;
+    max-width: 100%;
     height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #b2f7ef;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid #40e0d0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
 }
