@@ -97,6 +97,11 @@ body {
 
 .carousel {
     height: 50vh;
+    overflow: visible;
+    background-color: #eff7f6;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 
 .carousel-content {
@@ -105,15 +110,48 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%; /* Ensure the content takes full width */
+}
+
+/* SECTION #1 - Carousel */
+.home-content {
+    margin-top: 1.3rem;
+    background-color: #eff7f6;
+}
+
+.carousel {
+    height: 55vh; /* Increase the height to accommodate more content */
+    overflow: visible; /* Ensure content is not clipped */
+    background-color: #eff7f6;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.carousel-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; /* Ensure the content takes full width */
 }
 
 /* SLIDE #1 */
+.project1 {
+    position: relative; /* Ensure the button is positioned relative to the project1 container */
+    top: 2.5rem;
+    right: -1rem;
+    height: 55vh;
+    overflow: visible;
+}
+
 .project1 h3 {
     color: black;
     font-weight: 590;
     font-size: 1.5rem;
     width: 750px;
-    margin-top: -20rem;
+    margin-top: -20.5rem;
     margin-left: 2.5rem;
     line-height: 2.5rem;
 }
@@ -128,8 +166,8 @@ body {
 }
 
 .project1 .project-images {
-    margin-top: 30px;
-    margin-left: 57rem;
+    margin-top: 3rem;
+    margin-left: 55rem;
 }
 
 .project1 .project-images img {
@@ -137,40 +175,42 @@ body {
     height: auto;
 }
 
-.project1 a {
+.project1 .get-started a {
     background-color: #b2f7ef;
     text-align: center;
     margin-left: 2.6rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 20px;
     width: 170px;
     font-size: 1.3rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    bottom: 10px;
+    left: 2.6rem;
+    z-index: 100;
 }
 
-/* SLIDE #2 */
-
-/* SLIDE #3 */
-
+.project1 .get-started a:hover {
+    background-color: #40e0d0;
+    color: white;
+}
 
 /* Carousel buttons (dots) */
-.carousel.slick-prev.slick-next.slick-dots .slick-dots {
-    margin-top:10rem;
-}
-
 .slick-dots {
+    position: absolute;
+    height: 4vh;
+    bottom: -30px; /* Adjust this value to position the dots correctly */
+    width: 100%;
     text-align: center;
-    padding: 8px 0;
-    margin-top: 20px; /* Add some margin to separate the dots from the carousel */
+    padding: 0; /* Remove padding if not needed */
+    margin: 0; /* Remove margin if not needed */
     display: flex;
     justify-content: center;
-    margin-left: -2.5%;
     align-items: center;
     list-style: none;
-}
-
-.slick-dots li {
-    display: inline-block;
-    margin: 0 5px;
+    background-color: #eff7f6;
 }
 
 .slick-dots li button:before {
@@ -183,6 +223,10 @@ body {
     color: #40e0d0; /* Customize the color of the active dot */
     opacity: 1;
 }
+
+/* SLIDE #2 */
+
+/* SLIDE #3 */
 
 
 /* SECTION #2 - Our Partners */
