@@ -17,3 +17,55 @@
     <!-- Mis archivos CSS (Styles)-->
     <link href="index.css" rel="stylesheet">
 </head>
+<body>
+    <!-- Menu (navegacion)-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <!-- Logo EduBridge -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="EduBridge Logo" class="logo">
+            </a>
+            <!-- Banderas por pais (Dropdown) -->
+            <div class="country-selector">
+                <select id="country-select">
+                    <option value="USA" src="img/USA-flag.png">United States</option>
+                    <option value="MEX" src="img/MEX-flag.png">México</option>
+                    <option value="PER" src="img/PER-flag.png">Perú</option>
+                    <option value="BZL" src="img/BZL-flag.png">Brasil</option>
+                    <!-- Más países luego -->
+                </select>
+                <img id="selected-flag" src="img/USA-flag.png" alt="Selected Flag" class="flag-icon">
+            </div>
+            <!-- Iniciando opciones para el Menu (navegacion) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a> <!-- ABOUT -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#students">Students</a> <!-- STUDENTS -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#universities">Universities</a> <!-- UNIVERSITIES -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#companies">Companies</a> <!-- COMPANIES -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#investors">Investors</a> <!-- INVESTORS -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-login" href="#login">Log In</a> <!-- LOG IN -->
+                    </li>
+                </ul>
+            </div>
+            <div class="text-country">
+                <h4><i>Start your journey—select your country to see available options!</i></h4>
+            </div>
+        </div>
+    </nav>
+
+</body>

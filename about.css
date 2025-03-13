@@ -1,0 +1,114 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    color: #333;
+}
+
+/* Menu (navegacion) */
+.navbar.navbar-light {
+    background-color: #b2f7ef !important;
+    border-bottom: 1px solid #40e0d0;
+    color: #b2f7ef;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+    height: 16vh;
+    z-index: 1000;
+}
+
+/* Logo EduBridge */
+.navbar-brand .logo {
+    height: 40px;
+    width: auto;
+    margin-left: -3rem;
+    margin-top: 1rem;
+}
+
+.navbar-nav {
+    margin-right: 4.4rem;
+}
+
+/* Opciones del menu */
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 4.7rem;
+    margin-left: 2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 4.7rem;
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-login {
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    position: absolute;
+    text-decoration: none;
+    top: 5.3rem;
+    right: 65px;
+    z-index: 1100;
+}
+
+.navbar-nav .nav-login:hover {
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    position: absolute;
+    text-decoration: none;
+    top: 5.3rem;
+    right: 65px;
+    z-index: 1100;
+    text-decoration: underline;
+}
+
+/* Texto para slogan de country selector */
+.text-country h4 {
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    position: absolute;
+    top: 36px;
+    right: 240px;
+    z-index: 1100;
+}
+
+/* Banderas (paises) */
+.country-selector {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    z-index: 1100;
+}
+
+#country-select {
+    padding: 5px 30px 5px 40px;
+    border: 2px solid #40e0d0;
+    border-radius: 4px;
+    background-color: #b2f7ef;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.flag-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+    pointer-events: none;
+}
+
+/* SECTION #1 -  */
