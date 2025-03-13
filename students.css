@@ -119,111 +119,111 @@ body {
     text-decoration: underline;
 }
 
-/* Unlock Your Future Section */
+/* SECTION #1 - Students */
 .unlock-future-section {
-    background-color: #eff7f6; /* Light background color */
-    padding: 4rem 2rem; /* Add padding for spacing */
-    text-align: center; /* Center-align content */
+    background-color: #eff7f6;
+    padding: 4rem 2rem;
+    text-align: center;
 }
 
 .unlock-future-section h1 {
-    font-size: 2.5rem; /* Large font size for the heading */
-    color: #333; /* Dark gray text color */
-    margin-bottom: 1rem; /* Space below the heading */
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .unlock-future-section p {
-    font-size: 1.2rem; /* Slightly larger font size */
-    color: #555; /* Medium gray text color */
-    margin-bottom: 2rem; /* Space below the paragraph */
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
 }
 
 .unlock-future-section .btn-get-started {
-    background-color: #40e0d0; /* Teal background color */
-    color: white; /* White text color */
-    padding: 1rem 2rem; /* Add padding to the button */
-    font-size: 1.1rem; /* Font size for the button */
-    border-radius: 4px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the button inline-block */
-    margin-bottom: 2rem; /* Space below the button */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    background-color: #40e0d0;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease;
 }
 
 .unlock-future-section .btn-get-started:hover {
-    background-color: #2ca89a; /* Darker teal on hover */
+    background-color: #2ca89a;
 }
 
 .unlock-future-section .loan-calculator {
-    background-color: white; /* White background for the calculator section */
-    padding: 2rem; /* Add padding for spacing */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-bottom: 2rem; /* Space below the calculator section */
+    background-color: white; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 }
 
 .unlock-future-section .loan-calculator h2 {
-    font-size: 1.8rem; /* Font size for the heading */
-    color: #333; /* Dark gray text color */
-    margin-bottom: 1rem; /* Space below the heading */
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .unlock-future-section .loan-calculator p {
-    font-size: 1.1rem; /* Font size for the paragraph */
-    color: #555; /* Medium gray text color */
+    font-size: 1.1rem;
+    color: #555;
 }
 
 .unlock-future-section .extra-resources {
-    text-align: left; /* Left-align text for resources */
-    background-color: white; /* White background for the resources section */
-    padding: 2rem; /* Add padding for spacing */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .unlock-future-section .extra-resources h2 {
-    font-size: 1.8rem; /* Font size for the heading */
-    color: #333; /* Dark gray text color */
-    margin-bottom: 1rem; /* Space below the heading */
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 .unlock-future-section .extra-resources h3 {
-    font-size: 1.5rem; /* Font size for subheadings */
-    color: #333; /* Dark gray text color */
-    margin-top: 1.5rem; /* Space above subheadings */
-    margin-bottom: 1rem; /* Space below subheadings */
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .unlock-future-section .extra-resources ul {
-    list-style-type: disc; /* Add bullet points */
-    margin-left: 2rem; /* Indent the list */
-    margin-bottom: 1.5rem; /* Space below the list */
+    list-style-type: disc;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .unlock-future-section .extra-resources ul li {
-    font-size: 1.1rem; /* Font size for list items */
-    color: #555; /* Medium gray text color */
-    margin-bottom: 0.5rem; /* Space between list items */
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
 }
 
 .unlock-future-section .partner-links {
-    display: flex; /* Use flexbox for layout */
-    gap: 1rem; /* Space between links */
-    margin-top: 1rem; /* Space above the links */
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .unlock-future-section .partner-link {
-    background-color: #40e0d0; /* Teal background color */
-    color: white; /* White text color */
-    padding: 0.5rem 1rem; /* Add padding to the links */
-    font-size: 1rem; /* Font size for the links */
-    border-radius: 4px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    background-color: #40e0d0;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .unlock-future-section .partner-link:hover {
-    background-color: #2ca89a; /* Darker teal on hover */
+    background-color: #2ca89a;
 }
 
 /* Footer */
