@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 0rem;
     width: 100%;
-    height: 11vh;
+    height: 16vh;
     z-index: 1000;
 }
 
@@ -27,20 +27,32 @@ body {
 }
 
 .navbar-nav {
-    margin-right: 9rem;
+    margin-right: -3.2rem;
 }
 
+/* Opciones del menu */
 .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
-    margin-top: 1.2rem;
-    margin-left: 1.5rem;
+    margin-top: 4.7rem;
+    margin-left: 2rem;
+}
+
+/* Texto para slogan de country selector */
+.text-country h4 {
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+    position: absolute;
+    top: 36px;
+    right: 240px;
+    z-index: 1100;
 }
 
 /* Banderas (paises) */
 .country-selector {
     position: absolute;
-    top: 32.5px;
+    top: 25px;
     right: 50px;
     z-index: 1100;
 }
@@ -69,16 +81,11 @@ body {
 /* SECTION #1 - Carousel */
 .home-content {
     margin-top: 1.3rem;
+    background-color:#eff7f6;
 }
 
 .carousel {
     height: 50vh;
-}
-
-.carousel-item {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 .carousel-content {
@@ -87,9 +94,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #eff7f6;
 }
 
+/* SLIDE #1 */
 .project1 h3 {
     color: black;
     font-weight: 590;
@@ -109,12 +116,12 @@ body {
     line-height: 2.1rem;
 }
 
-.project-images {
+.project1 .project-images {
     margin-top: 30px;
     margin-left: 57rem;
 }
 
-.project-images img {
+.project1 .project-images img {
     width: 500px;
     height: auto;
 }
@@ -129,6 +136,12 @@ body {
     font-size: 1.3rem;
 }
 
+/* SLIDE #2 */
+
+/* SLIDE #3 */
+
+
+/* Carousel buttons (dots) */
 .carousel.slick-prev.slick-next.slick-dots .slick-dots {
     margin-top:10rem;
 }
@@ -159,7 +172,6 @@ body {
     color: #40e0d0; /* Customize the color of the active dot */
     opacity: 1;
 }
-
 
 
 /* SECTION #2 - Our Partners */
