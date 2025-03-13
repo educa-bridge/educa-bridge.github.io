@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-nav {
-    margin-right: -3.2rem;
+    margin-right: 4.4rem;
 }
 
 /* Opciones del menu */
@@ -39,14 +39,36 @@ body {
     margin-left: 2rem;
 }
 
+.navbar-nav .nav-link:hover {
+    color: black;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 4.7rem;
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+
 .navbar-nav .nav-login {
     color: black;
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
     position: absolute;
-    top: 4.7rem;
-    right: 240px;
+    text-decoration: none;
+    top: 5.3rem;
+    right: 65px;
     z-index: 1100;
+}
+
+.navbar-nav .nav-login:hover {
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    position: absolute;
+    text-decoration: none;
+    top: 5.3rem;
+    right: 65px;
+    z-index: 1100;
+    text-decoration: underline;
 }
 
 /* Texto para slogan de country selector */
@@ -190,11 +212,14 @@ body {
     bottom: 10px;
     left: 2.6rem;
     z-index: 100;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 .project1 .get-started a:hover {
-    background-color: #40e0d0;
-    color: white;
+    background-color: #71f0e1;
+    color: black;
+    transform: translateY(-5px); /* Move the button up slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
 /* Carousel buttons (dots) */
@@ -233,16 +258,31 @@ body {
 .partners {
     height: 50vh;
     background-color: #b2f7ef;
+    padding: 2rem 0;
+    text-align: center;
 }
 
 .partners-content h1 {
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-weight: 600;
     color: black;
-    margin-left: 2.6rem;
+    margin-bottom: 2rem;
 }
 
+.partners-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.partners-container img {
+    max-width: 150px;
+    height: auto;
+}
 
 /* SECTION #3 - Become an Investor */
 .investors {
