@@ -12,7 +12,7 @@ body {
 
 /* Menu (navegacion) */
 .navbar-nav {
-    margin-right: 590px;
+    margin-right: 710px;
     overflow: visible;
     z-index: 20;
 }
@@ -102,6 +102,38 @@ body {
     transform: translateY(-50%);
     font-size: 0.8rem;
     color: #1d2337;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-radius: 20px;
+    background-color: rgb(240, 244, 255);
+}
+
+/* Log In */
+.navbar-nav .nav-item .nav-login {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 40.5rem;
+    border: 1px solid rgb(255, 202, 116);
+    background-color: rgb(255, 202, 116);
+    font-size: 1rem;
+    color: #1d2337;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+/* Sign Up */
+.navbar-nav .nav-item .nav-signup {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: 33.5rem;
+    border: 1.4px solid rgb(205, 211, 228);
+    font-size: 1rem;
+    color: #1d2337;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
 }
 
 /* Texto para slogan de country selector */
