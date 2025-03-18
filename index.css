@@ -501,10 +501,10 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #b2f7ef;
+    background-color: rgb(251, 252, 255);
     padding: 1rem 0;
     text-align: center;
-    border-top: 1px solid #40e0d0;
+    border-top: 1.5px solid #39405547;
 }
 
 .footer p {
