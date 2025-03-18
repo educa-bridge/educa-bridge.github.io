@@ -244,7 +244,7 @@ body {
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     height: 38vh;
 }
 
@@ -303,7 +303,7 @@ body {
 }
 
 .investors-section .container .investor-redirect {
-    padding-top: 160px;
+    padding-top: 180px;
 }
 
 
