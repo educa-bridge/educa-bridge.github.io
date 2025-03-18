@@ -14,12 +14,6 @@ body {
 .navbar-nav {
     margin-right: 710px;
     overflow: visible;
-    z-index: 20;
-}
-
-.navbar-nav {
-    z-index: 100;
-    overflow: visible;
 }
 
 .entity {
@@ -29,6 +23,7 @@ body {
     width: 100%;
     top: 0rem;
     height: 3.8vh;
+    z-index: 100;
 }
 
 .entity-nav {
