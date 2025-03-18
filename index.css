@@ -336,22 +336,22 @@ body {
 /* SECTION #2 - Our Partners */
 .partners {
     height: 12vh;
-    background-color: #eff7f6;
+    background-color: rgb(251, 252, 255);
     padding: 2rem 0;
     text-align: center;
 }
 
 .partners-content h1 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1d2337;
     margin-bottom: 2rem;
     margin-top: 1.6rem;
 }
 
 .partners-logos {
     height: 15vh;
-    background-color: #b2f7ef;
+    background-color: rgb(251, 252, 255);
     padding: 0.5rem 0;
     text-align: center;
 }
