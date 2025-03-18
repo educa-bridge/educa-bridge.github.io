@@ -356,6 +356,14 @@ body {
     text-align: center;
 }
 
+.partners-logos hr {
+    border: none;
+    width: 500px;
+    height: 5px;
+    background-color: rgb(255, 2, 2);
+    margin: 40px 40px;
+}
+
 .partners-logos .partners-container {
     display: flex;
     justify-content: center;
