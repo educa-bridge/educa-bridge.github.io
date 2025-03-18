@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito Sans');
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.7s ease-in-out;
+}
+
 /* Menu (navegacion) */
 .navbar-nav {
     margin-right: 710px;
