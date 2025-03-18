@@ -83,18 +83,18 @@ body {
     font-size: 0.95rem;
     margin-top: 2.5rem;
     margin-left: 20px;
-    padding-right: 30px; /* Add space for the arrow */
+    padding-right: 30px;
     text-decoration: none;
     font-weight: 800;
-    position: relative; /* Ensure this is set */
+    position: relative;
 }
 
 .navbar-nav .nav-item .nav-link::after {
-    content: "\f107"; /* FontAwesome downward arrow icon */
+    content: "\f107";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
-    right: 15px; /* Move further to the right */
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 0.8rem;
@@ -380,38 +380,51 @@ body {
 /* SECTION #3 - Become an Investor */
 .investors-section {
     background-color: rgb(251, 252, 255);
-    padding: 4rem 0;
-    text-align: center;
+    padding: 3.5rem 0;
 }
 
 .investors-section h2 {
-    font-size: 1.8rem;
+    margin-left: 2.5rem;
+    font-size: 2.1rem;
+    max-width: 700px;
+    line-height: 3.5rem;
     font-weight: 600;
-    color: black;
+    color: #1d2337;
     margin-bottom: 1rem;
 }
 
 .investors-section p {
     font-size: 1.2rem;
-    color: #434343;
+    color: #1d2337;
     margin-bottom: 2rem;
     font-weight: 300;
+    max-width: 500px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-weight: 400;
 }
 
 .investors-section h6 {
+    position: relative;
     font-size: 1.15rem;
     font-weight: 550;
-    color: #434343;
+    color: #1d2337;
     margin-bottom: 2rem;
+    margin-left: 40rem;
+    margin-top: -14.1rem;
 }
 
 .investors-section form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #eff7f6;
-    padding: 2rem;
+    margin-top: -13.5rem;
+    margin-left: 40rem;
+    max-width: 500px;
+    background-color: rgb(240, 244, 255);
+    padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+    height: 38vh;
 }
 
 .investors-section .form-group {
@@ -421,36 +434,69 @@ body {
 
 .investors-section .form-label {
     font-weight: bold;
-    color: #333;
+    color: #1d2337;
     margin-bottom: 0.5rem;
 }
 
 .investors-section .form-control {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #ddd;
+    border: 1.7px solid #1d233728;
     border-radius: 4px;
     font-size: 1rem;
+    background-color: rgba(252, 253, 255, 0.825);
 }
 
 .investors-section .btn-primary {
-    background-color: #b2f7ef;
-    color: black;
-    border: none;
+    margin-left: 11rem;
+    position: absolute;
+    margin-top: 0.2rem;
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    font-size: 1.1rem;
+    color: #1d2337;
     text-decoration: none;
+    padding: 8px 20px 8px 20px;
     border-radius: 30px;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .investors-section .btn-primary:hover {
-    background-color: #71f0e1;
-    color: black;
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
+}
+
+/* investors.html redirect */
+.investors-section .container .investor-redirect .investor-link {
+    color: #FDB815;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    padding-right: 0;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    gap: 8px;
+    display: inline-block;
+}
+
+.investors-section .container .investor-redirect {
+    padding-top: 160px;
+}
+
+
+.investors-section .container .investor-redirect .investor-link::after {
+    content: "→";
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FDB815;
+}
+
+.investors-section .container .investor-redirect .investor-link:hover {
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /* Footer */
