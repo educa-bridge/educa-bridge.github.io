@@ -7,7 +7,7 @@ body {
     padding: 0;
     padding-top: 70px;
     color: #333;
-    background-color: #eff7f6;
+    background-color: rgb(240, 244, 255);
 }
 
 /* Menu (navegacion) */
@@ -110,8 +110,8 @@ body {
     position: absolute;
     margin-top: 2.5rem;
     margin-left: 40.5rem;
-    border: 1px solid rgb(255, 202, 116);
-    background-color: rgb(255, 202, 116);
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
     font-size: 1rem;
     color: #1d2337;
     text-decoration: none;
@@ -122,8 +122,8 @@ body {
 
 .navbar-nav .nav-item .nav-login:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgb(255, 207, 130);
-    background-color: rgb(255, 207, 130);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
 }
 
 /* Sign Up */
@@ -191,13 +191,13 @@ body {
 /* SECTION #1 - Carousel */
 .home-content {
     margin-top: 1.3rem;
-    background-color:#eff7f6;
+    background-color:white;
 }
 
 .carousel {
     height: 50vh;
     overflow: visible;
-    background-color: #eff7f6;
+    background-color: #fede85d5;
     padding: 0;
     margin: 0;
     position: relative;
@@ -215,13 +215,13 @@ body {
 /* SECTION #1 - Carousel */
 .home-content {
     margin-top: 1.3rem;
-    background-color: #eff7f6;
+    background-color: white;
 }
 
 .carousel {
-    height: 55vh;
+    height: 57vh;
     overflow: visible;
-    background-color: #eff7f6;
+    background-color: #fede85d5;
     padding: 0;
     margin: 0;
     position: relative;
@@ -246,20 +246,21 @@ body {
 }
 
 .project1 h3 {
-    color: black;
-    font-weight: 590;
-    font-size: 1.5rem;
+    color: #03134a;
+    font-weight: 900;
+    font-size: 2.1rem;
     width: 750px;
-    margin-top: -20.5rem;
-    margin-left: 2.5rem;
+    margin-top: -21.2rem;
+    margin-left: 8rem;
     line-height: 2.5rem;
 }
 
 .project1 p {
-    color: black;
-    font-size: 1.15rem;
+    color: #03134a;
+    font-weight: 550;
+    font-size: 1.2rem;
     margin-top: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 8rem;
     width: 700px;
     line-height: 2.1rem;
 }
@@ -275,28 +276,28 @@ body {
 }
 
 .project1 .get-started a {
-    background-color: #b2f7ef;
-    text-align: center;
-    margin-left: 2.6rem;
-    margin-top: 2rem;
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    color: #1d2337;
+    text-decoration: none;
     border-radius: 30px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 2rem;
     width: 170px;
     font-size: 1.3rem;
     padding: 10px 20px;
-    text-decoration: none;
-    color: black;
     display: inline-block;
     bottom: 10px;
     left: 2.6rem;
     z-index: 100;
-    transition: all 0.3s ease;
 }
 
 .project1 .get-started a:hover {
-    background-color: #71f0e1;
-    color: black;
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
 }
 
 /* Carousel buttons (dots) */
@@ -307,22 +308,22 @@ body {
     width: 100%;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: -2.99999999px;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: #eff7f6;
+    background-color: #fede85d5;
 }
 
 .slick-dots li button:before {
     font-size: 10px;
-    color: #b2f7ef;
+    color: #202f5c58;
     opacity: 0.75;
 }
 
 .slick-dots li.slick-active button:before {
-    color: #40e0d0;
+    color: #1e284a97;
     opacity: 1;
 }
 
