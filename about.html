@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Mis archivos CSS (Styles)-->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="header-footer.css">
 </head>
 
@@ -68,14 +68,32 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a> <!-- ABOUT -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="team.html">Who We Are</a></li>
+                            <li><a class="dropdown-item" href="mission.html">Meet The Team</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resources.html">Resources</a> <!-- RESOURCES -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="guides.html">Guides</a></li>
+                            <li><a class="dropdown-item" href="tutorials.html">Tutorials</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gethelp.html">Get Help</a> <!-- GET HELP -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="getHelpDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Get Help
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="getHelpDropdown">
+                            <li><a class="dropdown-item" href="contact.html">Support</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-signup" href="signup.html">Sign Up</a> <!-- SIGN UP -->
@@ -101,9 +119,12 @@
                 <div class="footer-section">
                     <h4>Menu</h4>
                     <ul>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/resources">Resources</a></li>
-                        <li><a href="/get-help">Get Help</a></li>
+                        <li><a href="/about">Who We Are</a></li>
+                        <li><a href="/resources">Meet The Team</a></li>
+                        <li><a href="/get-help">Guides</a></li>
+                        <li><a href="/get-help">Tutorials</a></li>
+                        <li><a href="/get-help">Support</a></li>
+                        <li><a href="/get-help">FAQ</a></li>
                     </ul>
                 </div>
     

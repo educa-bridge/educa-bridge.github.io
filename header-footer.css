@@ -65,12 +65,19 @@
 
 .navbar.navbar-light {
     background-color: white !important;
-    color: #b2f7ef;
     position: fixed;
     top: 0rem;
     width: 100%;
     height: 11vh;
     box-shadow: 0 7px 8px rgba(15, 15, 16, 0.06);
+}
+
+.dropdown-menu {
+    background-color: white;
+    border-color: rgb(240, 244, 255);
+    border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Logo EduBridge */
@@ -93,21 +100,21 @@
     position: relative;
 }
 
-.navbar-nav .nav-item .nav-link::after {
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 0.8rem;
-    color: #1d2337;
-}
-
 .navbar-nav .nav-item .nav-link:hover {
     border-radius: 20px;
     background-color: rgb(240, 244, 255);
+}
+
+.dropdown-toggle::after {
+    content: '';
+    border: solid #1d2337;
+    border-width: 2px 2px 0 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-top: -0.3rem;
 }
 
 /* Log In */
