@@ -304,7 +304,7 @@ body {
 /* Carousel buttons (dots) */
 .slick-dots {
     position: absolute;
-    height: 4vh;
+    height: 5vh;
     bottom: -30px;
     width: 100%;
     text-align: center;
@@ -321,6 +321,7 @@ body {
     font-size: 10px;
     color: #202f5c58;
     opacity: 0.75;
+    margin-top: -0.2rem;
 }
 
 .slick-dots li.slick-active button:before {
@@ -354,14 +355,6 @@ body {
     background-color: rgb(251, 252, 255);
     padding: 0.5rem 0;
     text-align: center;
-}
-
-.partners-logos hr {
-    border: none;
-    width: 500px;
-    height: 5px;
-    background-color: rgb(255, 2, 2);
-    margin: 40px 40px;
 }
 
 .partners-logos .partners-container {
