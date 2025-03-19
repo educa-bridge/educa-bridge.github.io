@@ -85,19 +85,19 @@ body {
 
 .project1 .garabato-container {
     position: absolute;
-    top: 2rem; /* Adjust as needed */
-    left: 66rem; /* Adjust as needed */
-    width: 550px; /* Match the PNG's width */
-    height: auto; /* Match the PNG's height */
-    overflow: visible; /* Allow the PNG to overflow */
-    z-index: 1002; /* Ensure it's above other elements */
+    top: 2rem;
+    left: 66rem;
+    width: 550px;
+    height: auto;
+    overflow: visible;
+    z-index: 1002;
 }
 
 /* Garabato 1 */
 .project1 .garabato-uno {
     margin-top: -9rem;
     margin-left: -54rem;
-    z-index: 1001; /* Higher than slick-dots */
+    z-index: 1001;
     max-width: 10px;
     height: auto;
     rotate: -215deg;
@@ -107,7 +107,7 @@ body {
 .project1 .garabato-uno img {
     width: 370px;
     height: auto;
-    z-index: 1001; /* Higher than slick-dots */
+    z-index: 1001;
     overflow: visible;
 }
 
@@ -116,14 +116,14 @@ body {
     position: absolute;
     left: 0rem;
     top: -3.8rem;
-    overflow: visible; /* Allow the PNG to overflow */
+    overflow: visible;
     rotate: -40deg;
-    z-index: 1001; /* Ensure it's above other elements */
+    z-index: 1001;
 }
 
 .project1 .garabato-dos img {
-    width: 545px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 545px;
+    height: auto;
     overflow: visible;
 }
 
@@ -152,10 +152,9 @@ body {
     background-color: #ffca4f;
 }
 
-/* Carousel buttons (dots) */
+
     
 /* Carousel buttons (dots) */
-
 .slick-dots {
     position: absolute;
     bottom: 0px;
@@ -167,7 +166,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
-    z-index: 1000; /* Lower than garabato */
+    z-index: 1000;
 }
 
 .slick-dots li button:before {
@@ -184,28 +183,28 @@ body {
 
 .slick-list {
     height: 500px;
-    align-items: center; /* Center slides vertically */
-    display: flex; /* Ensure slides are aligned horizontally */
-    overflow: hidden; /* Ensure only the active slide is visible */
-    position: relative; /* Create a stacking context */
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
 }
 
 .slick-track {
     height: 500px;
-    display: flex; /* Ensure slides are aligned horizontally */
-    align-items: center; /* Center slides vertically */
+    display: flex;
+    align-items: center;
 }
 
 .slick-slide {
     height: 500px;
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    width: 100%; /* Ensure slides take full width */
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .slick-slide img {
-    height: 100%; /* Ensure images fill the slide */
-    object-fit: cover; /* Maintain aspect ratio */
+    height: 100%;
+    object-fit: cover;
 }
 
 
