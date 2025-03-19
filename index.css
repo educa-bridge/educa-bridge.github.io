@@ -21,7 +21,6 @@ body {
     background-color: #fede85d5;
     padding: 0;
     margin-top: 2.3rem;
-    margin-bottom: -4rem;
     position: relative;
 }
 
@@ -42,6 +41,7 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
+    height: 493px;
 }
 
 /* SLIDE #1 */
@@ -83,34 +83,48 @@ body {
     height: auto;
 }
 
+.project1 .garabato-container {
+    position: absolute;
+    top: 2rem; /* Adjust as needed */
+    left: 66rem; /* Adjust as needed */
+    width: 550px; /* Match the PNG's width */
+    height: auto; /* Match the PNG's height */
+    overflow: visible; /* Allow the PNG to overflow */
+    z-index: 1002; /* Ensure it's above other elements */
+}
+
 /* Garabato 1 */
 .project1 .garabato-uno {
-    margin-top: -30rem;
-    margin-left: 12rem;
+    margin-top: -9rem;
+    margin-left: -54rem;
     z-index: 1001; /* Higher than slick-dots */
     max-width: 10px;
     height: auto;
     rotate: -215deg;
+    overflow: visible;
 }
 
 .project1 .garabato-uno img {
     width: 370px;
     height: auto;
     z-index: 1001; /* Higher than slick-dots */
+    overflow: visible;
 }
 
 /* Garabato 2 */
 .project1 .garabato-dos {
-    margin-top: -9.9rem;
-    margin-left: 66rem;
-    z-index: 1001; /* Higher than slick-dots */
-    rotate: -45deg;
+    position: absolute;
+    left: 0rem;
+    top: -3.8rem;
+    overflow: visible; /* Allow the PNG to overflow */
+    rotate: -40deg;
+    z-index: 1001; /* Ensure it's above other elements */
 }
 
 .project1 .garabato-dos img {
-    width: 550px;
-    height: auto;
-    z-index: 1001; /* Higher than slick-dots */
+    width: 545px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    overflow: visible;
 }
 
 .project1 .get-started a {
@@ -141,6 +155,7 @@ body {
 /* Carousel buttons (dots) */
     
 /* Carousel buttons (dots) */
+
 .slick-dots {
     position: absolute;
     bottom: 0px;
@@ -166,6 +181,33 @@ body {
     color: #1e284a97;
     opacity: 1;
 }
+
+.slick-list {
+    height: 500px;
+    align-items: center; /* Center slides vertically */
+    display: flex; /* Ensure slides are aligned horizontally */
+    overflow: hidden; /* Ensure only the active slide is visible */
+    position: relative; /* Create a stacking context */
+}
+
+.slick-track {
+    height: 500px;
+    display: flex; /* Ensure slides are aligned horizontally */
+    align-items: center; /* Center slides vertically */
+}
+
+.slick-slide {
+    height: 500px;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure slides take full width */
+}
+
+.slick-slide img {
+    height: 100%; /* Ensure images fill the slide */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
 
 /* SLIDE #2 */
 
@@ -254,7 +296,7 @@ body {
 }
 
 .investors-section form {
-    margin-top: -13.5rem;
+    margin-top: -14.5rem;
     margin-left: 40rem;
     max-width: 500px;
     background-color: rgb(240, 244, 255);

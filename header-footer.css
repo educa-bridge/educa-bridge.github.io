@@ -279,7 +279,7 @@
 }
 
 .footer-section.logo-section .footer-logo {
-    width: 150px;
+    width: 120px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -317,5 +317,5 @@
 .footer-bottom p {
     margin: 0;
     font-size: 0.8rem;
-    color: #5d5d5d9f;
+    color: #3a3a3ab3;
 }
