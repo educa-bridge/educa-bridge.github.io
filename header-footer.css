@@ -30,13 +30,25 @@
     z-index: 100;
 }
 
+.home-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 1343px;
+    margin-top: 0.3rem;
+}
+
+.home-nav .icon {
+    max-width: 22px;
+}
+
 .entity-nav {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 0;
-    margin-right: 1045px;
-    margin-top: 0.3rem;
+    margin-right: 1003px;
+    margin-top: -1.3rem;
 }
 
 .entity-item {
@@ -82,7 +94,7 @@
 
 /* Logo EduBridge */
 .navbar-brand .logo {
-    height: 70px;
+    height: 55px;
     width: auto;
     margin-left: 2.1rem;
     margin-top: 2rem;
