@@ -96,7 +96,7 @@
 .navbar-brand .logo {
     height: 55px;
     width: auto;
-    margin-left: 2.1rem;
+    margin-left: 4.7rem;
     margin-top: 2rem;
 }
 
@@ -133,7 +133,7 @@
 .navbar-nav .nav-item .nav-login {
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: 39.8rem;
+    margin-left: 41.4rem;
     border: 1px solid #FDB815;
     background-color: #FDB815;
     font-size: 1rem;
@@ -154,7 +154,7 @@
 .navbar-nav .nav-item .nav-signup {
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: 32.8rem;
+    margin-left: 34.4rem;
     border: 1.4px solid rgb(205, 211, 228);
     font-size: 1rem;
     color: #1d2337;
@@ -212,7 +212,16 @@
     pointer-events: none;
 }
 
+/* Chat */
+.chat-nav .chat {
+    max-width: 50px;
+    margin-top: 88rem;
+    margin-right: 2.3rem;
+}
 
+.chat-nav .chat img {
+    margin-top: -20rem;
+}
 
 /* Footer */
 .footer {
