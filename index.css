@@ -86,23 +86,23 @@ body {
 
 /* Garabato 1 */
 .project1 .garabato-uno {
-    margin-top: -37rem;
-    margin-left: 67.5rem;
+    margin-top: -30rem;
+    margin-left: 12rem;
     z-index: 1000;
     max-width: 10px;
     height: auto;
-    rotate: -6deg;
+    rotate: -215deg;
 }
 
 .project1 .garabato-uno img {
-    width: 500px;
+    width: 370px;
     height: auto;
     z-index: 1000;
 }
 
 /* Garabato 2 */
 .project1 .garabato-dos {
-    margin-top: 3rem;
+    margin-top: 10rem;
     margin-left: 55rem;
     z-index: 1000;
 }
@@ -110,7 +110,7 @@ body {
 .project1 .garabato-dos img {
     width: 500px;
     height: auto;
-    z-index: 1000;
+    z-index: 1200;
 }
 
 .project1 .get-started a {
