@@ -28,6 +28,7 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
+    margin-top: 2.35rem;
 }
 
 .hero-overlay {
@@ -46,13 +47,20 @@ body {
 
 .hero-content h1 {
     font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-left: -50rem;
+    margin-top: -2.5rem;
+    color: rgb(255, 232, 156);
 }
 
 .hero-content .subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 200;
+    max-width: 750px;
+    margin-left: -16rem;
+    text-align: left;
+    color: rgb(240, 244, 255);
 }
 
 /* Content Section */
