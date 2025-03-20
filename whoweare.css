@@ -202,7 +202,7 @@ body {
 .plan-block h5 {
     margin-top: 0.3rem;
     font-size: 1.15rem;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     font-weight: 700;
     color: #1d2337;
     display: flex; /* Use flexbox to align icon and text */
@@ -212,9 +212,12 @@ body {
 }
 
 .plan-block h4 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #666;
     margin-bottom: 20px;
+    text-align: left;
+    align-self: left;
+    line-height: 1.3rem;
 }
 
 /* Styling for the "Learn More" button */
@@ -228,7 +231,7 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 18rem;
+    margin-top: 1.5rem;
 }
 
 .learn-more-btn:hover {
