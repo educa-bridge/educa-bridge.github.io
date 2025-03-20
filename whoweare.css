@@ -67,7 +67,7 @@ body {
 .content-section {
     padding: 4rem 0;
     background-color: #f9f9f9;
-    height: 98vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -84,7 +84,7 @@ body {
     margin-left: 6rem;
     font-size: 1rem;
     line-height: 1.6;
-    color: #555;
+    color: #1d2337;
     margin-bottom: 1.5rem;
 }
 
@@ -142,4 +142,103 @@ body {
 
 .row .col-md-6 .decoration-dos img {
     max-width: 380px;
+}
+
+/* Impact Section */
+.impact-section {
+    height: 125vh;
+    background-color: #323c5a;
+}
+
+.impact-content h2 {
+    padding-top: 4.7rem;
+    justify-self: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(255, 232, 156);
+    margin-bottom: 2rem;
+}
+
+.impact-content p {
+    justify-self: center;
+    max-width: 1065px;
+    color: rgba(240, 244, 255, 0.891);
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.impact-content h6 {
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    justify-self: center;
+    max-width: 1140px;
+    color: rgba(255, 232, 156, 0.847);
+    text-align: center;
+}
+
+/* Container for the plans */
+.interest-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling for each plan block */
+.plan-block {
+    background-color: rgba(248, 250, 255, 0.931);
+    border: 1px solid rgba(248, 250, 255, 0.948);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 250px;
+    max-width: 300px;
+    height: 57vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the headings */
+.plan-block h5 {
+    margin-top: 0.3rem;
+    font-size: 1.15rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #1d2337;
+    display: flex; /* Use flexbox to align icon and text */
+    align-items: center; /* Vertically center the icon and text */
+    justify-content: center; /* Horizontally center the content */
+    gap: 10px; /* Space between icon and text */
+}
+
+.plan-block h4 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling for the "Learn More" button */
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #FDB815;
+    border: 1px solid #FDB815;
+    color: #1d2337;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 18rem;
+}
+
+.learn-more-btn:hover {
+    background-color: #ffca4f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+}
+
+/* Icon styling */
+.plan-block h5 i {
+    font-size: 1.2rem; /* Adjust icon size */
+    color: #FDB815; /* Icon color */
 }
