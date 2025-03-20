@@ -98,6 +98,10 @@
     color: #1d2337;
 }
 
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /* Logo EduBridge */
 .navbar-brand .logo {
     height: 55px;
