@@ -94,7 +94,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: #ffca4f; /* Change this to your desired hover background color */
+    background-color: #ffca4f;
     color: #1d2337;
 }
 
@@ -249,10 +249,10 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%; /* Adjust the width of the line */
-    max-width: auto; /* Match the container width */
+    width: 85%;
+    max-width: auto;
     height: 1px;
-    background-color: #39405547; /* Same color as the bottom border */
+    background-color: #39405547;
 }
 
 .footer .container {
@@ -333,14 +333,14 @@
 }
 
 .footer-section.logo-section .social-links li a:hover {
-    color: #FDB815; /* Gold on hover */
+    color: #FDB815;
 }
 
 /* Footer Bottom (Copyright) */
 .footer-bottom {
     padding-top: 1rem;
     border-top: 1px solid #39405547;
-    margin-top: 1rem; /* Reduced gap */
+    margin-top: 1rem;
     margin-bottom: -1rem;
     text-align: center;
 }

@@ -19,8 +19,8 @@ body {
 /* Hero Section */
 .hero-section {
     position: relative;
-    height: 500px; /* Adjust height as needed */
-    background-image: url('img/about.jpg'); /* Replace with your image */
+    height: 500px;
+    background-image: url('img/about.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -37,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Low-exposure filter */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -106,9 +106,9 @@ body {
 
 .row .vision .vision-images img {
     max-width: 350px;
-    border-radius: 50%; /* Makes the image circular */
-    aspect-ratio: 1 / 0.9; /* Ensures the image is square (optional) */
-    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    border-radius: 50%;
+    aspect-ratio: 1 / 0.9;
+    object-fit: cover;
 }
 
 /* Decoration */
@@ -119,9 +119,9 @@ body {
 
 .row .col-md-6 .project-images img {
     max-width: 350px;
-    border-radius: 50%; /* Makes the image circular */
-    aspect-ratio: 1 / 0.9; /* Ensures the image is square (optional) */
-    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    border-radius: 50%;
+    aspect-ratio: 1 / 0.9;
+    object-fit: cover;
 }
 
 .row .col-md-6 .decoration-uno {
@@ -205,10 +205,10 @@ body {
     margin-bottom: 35px;
     font-weight: 700;
     color: #1d2337;
-    display: flex; /* Use flexbox to align icon and text */
-    align-items: center; /* Vertically center the icon and text */
-    justify-content: center; /* Horizontally center the content */
-    gap: 10px; /* Space between icon and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .plan-block h4 {
@@ -242,6 +242,6 @@ body {
 
 /* Icon styling */
 .plan-block h5 i {
-    font-size: 1.2rem; /* Adjust icon size */
-    color: #FDB815; /* Icon color */
+    font-size: 1.2rem;
+    color: #FDB815;
 }
