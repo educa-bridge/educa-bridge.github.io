@@ -209,6 +209,41 @@ body {
 
 
 /* SLIDE #2 */
+.project2 {
+    background-color: red;
+}
+
+.project2 h3 {
+    margin-top: -20rem;
+    margin-left: 5rem;
+    text-decoration: none;
+}
+
+.project2 p {
+    text-decoration: none;
+}
+
+.project2 u {
+    text-decoration: none;
+}
+
+.project2 li {
+    margin-left: 5rem;
+    color: #03134a;
+    font-weight: 550;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+}
+
+.project2 .project-images {
+    margin-top: 2rem;
+    margin-left: 55rem;
+}
+
+.project2 .project-images img {
+    width: 500px;
+    height: auto;
+}
 
 /* SLIDE #3 */
 
