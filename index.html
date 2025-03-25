@@ -152,20 +152,12 @@
                 </div>
                 <h3>How It Works</h3>
                 <p>
-                    <u>
-                        <li>
-                            <strong>Apply in Minutes:</strong> Enter your details and funding needs—no cosigner, no collateral required.
-                        </li>
-                        <li>
-                            <strong>AI-Powered Approval:</strong> Our smart system assesses your potential and approves your loan within minutes.
-                        </li>
-                        <li>
-                            <strong>Get Funded & Succeed:</strong> Receive financing, access financial coaching, and join a global student community.
-                        </li>
-                    </u>
-                    <h6>Fast. Fair. Accessible. Your education, your future—no barriers.</h6>
+                    <strong>Apply in Minutes:</strong> Enter your details and funding needs—no cosigner, no collateral required.<br>
+                    <strong>AI-Powered Approval:</strong> Our smart system assesses your potential and approves your loan within minutes.<br>
+                    <strong>Get Funded & Succeed:</strong> Receive financing, access financial coaching, and join a global student community.<br>
+                    <br>Fast. Fair. Accessible. Your education, your future—no barriers.
                 </p>
-                <div class="get-started">
+                <div class="learn-more">
                   <a href="students.html" class="btn"><strong>Learn More</strong></a>
                 </div>
               </div>
@@ -198,23 +190,23 @@
             </div>
             <!-- PARTNER 2 -->
             <div class="partner-name">
-                <img src="img/UM-logo.png" alt="Partner 2">
+                <img src="img/#" alt="Partner 2">
             </div>
             <!-- PARTNER 3 -->
             <div class="partner-name">
-                <img src="img/UM-logo.png" alt="Partner 3">
+                <img src="img/#" alt="Partner 3">
             </div>
             <!-- PARTNER 4 -->
             <div class="partner-name">
-                <img src="img/UM-logo.png" alt="Partner 4">
+                <img src="img/#" alt="Partner 4">
             </div>
             <!-- PARTNER 5 -->
             <div class="partner-name">
-                <img src="img/UM-logo.png" alt="Partner 5">
+                <img src="img/#" alt="Partner 5">
             </div>
             <!-- PARTNER 6 -->
             <div class="partner-name">
-                <img src="img/UM-logo.png" alt="Partner 6">
+                <img src="img/#" alt="Partner 6">
             </div>
             <!-- Agregar más si es necesario. -->
         </div>
@@ -404,14 +396,20 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--Extensión para carousel.-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
         $(document).ready(function(){
           $('.carousel').slick({
             dots: true,
             infinite: true,
-            speed: 300,
+            speed: 700,
             slidesToShow: 1,
             adaptiveHeight: true,
+            autoplay: true,           // Enable auto-play
+            autoplaySpeed: 3000,      // 3 seconds between slides
+            arrows: true,             // Show navigation arrows
+            pauseOnHover: true,       // Pause on hover
+            pauseOnFocus: false       // Continue autoplay when focused
           }).on('init', function(){
             $('.carousel').addClass('initialized');
           });

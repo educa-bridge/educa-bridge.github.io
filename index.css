@@ -211,29 +211,35 @@ body {
     margin-top: -29rem;
     margin-left: 9rem;
     text-decoration: none;
+    color: #03134a;
+    font-weight: 900;
+    font-size: 2.1rem;
+    width: 750px;
+    line-height: 2.5rem;
 }
 
 .project2 p {
     text-decoration: none;
     margin-left: 9rem;
-}
-
-.project2 u {
-    text-decoration: none;
+    font-weight: 550;
+    font-size: 1.2rem;
+    color: #03134a;
+    font-weight: 550;
+    font-size: 1.2rem;
+    width: 790px;
+    line-height: 2.1rem;
 }
 
 .project2 h6 {
     text-decoration: none;
     margin-left: 9rem;
-}
-
-.project2 li {
-    margin-left: 9rem;
+    font-weight: 550;
+    font-size: 1.2rem;
     color: #03134a;
     font-weight: 550;
     font-size: 1.2rem;
+    width: 790px;
     line-height: 2.1rem;
-    max-width: 800px;
 }
 
 .project2 .project-images {
@@ -258,6 +264,31 @@ body {
     width: 350px;
     height: auto;
     z-index: 1100;
+}
+
+.project2 .learn-more a {
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    color: #1d2337;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    width: 170px;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    display: inline-block;
+    bottom: 10px;
+    left: 2.6rem;
+    z-index: 100;
+}
+
+.project2 .learn-more a:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
 }
 
 /* SLIDE #3 */
