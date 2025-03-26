@@ -203,7 +203,7 @@ body {
 
 /* SLIDE #2 */
 .project2 {
-    background-color: #c6dbff;
+    background-color: #ddeaff;
     z-index: 1100;
 }
 
@@ -214,7 +214,7 @@ body {
     color: #03134a;
     font-weight: 900;
     font-size: 2.1rem;
-    width: 750px;
+    width: 900px;
     line-height: 2.5rem;
 }
 
@@ -225,6 +225,19 @@ body {
     font-size: 1.2rem;
     color: #03134a;
     font-weight: 550;
+    font-size: 1.2rem;
+    max-width: 790px;
+    line-height: 2.1rem;
+}
+
+.project2 h6 {
+    text-decoration: none;
+    margin-top: 1.1rem;
+    margin-left: 9rem;
+    font-weight: 550;
+    font-size: 1.2rem;
+    color: #03134a;
+    font-weight: 700;
     font-size: 1.2rem;
     width: 790px;
     line-height: 2.1rem;
@@ -275,7 +288,7 @@ body {
     transition: all 0.3s ease;
     text-align: center;
     margin-left: 9rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 170px;
     font-size: 1.3rem;
     padding: 10px 20px;
