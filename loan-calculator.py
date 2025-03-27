@@ -17,39 +17,39 @@ class StudentLoanCalculator:
                 "Cellular and Molecular Biomedical Science (Pre-Med)", "Molecular, Celullar, and Developmental Biology (Pre-Med)", 
                 "Neuroscience (Pre-Med)", "Psychology (Pre-Med)"
             ],
-            #University 2
-            "University 2": [
-                "Major1", "Major2", "Major3", "Major4", "Major5"
-            ],
-            #University 3
-            "University 3": [
-                "Major1", "Major2", "Major3", "Major4", "Major5"
-            ],
-            #University 4
-            "University 4": [
-                "Major1", "Major2", "Major3", "Major4", "Major5"
-            ],
-            #University 5
-            "University 5": [
-                "Major1", "Major2", "Major3", "Major4", "Major5"
-            ],
-            #University 6
-            "University 6": [
-                "Major1", "Major2", "Major3", "Major4", "Major5"
-            ],
+            # #University 2
+            # "University 2": [
+            #     "Major1", "Major2", "Major3", "Major4", "Major5"
+            # ],
+            # #University 3
+            # "University 3": [
+            #     "Major1", "Major2", "Major3", "Major4", "Major5"
+            # ],
+            # #University 4
+            # "University 4": [
+            #     "Major1", "Major2", "Major3", "Major4", "Major5"
+            # ],
+            # #University 5
+            # "University 5": [
+            #     "Major1", "Major2", "Major3", "Major4", "Major5"
+            # ],
+            # #University 6
+            # "University 6": [
+            #     "Major1", "Major2", "Major3", "Major4", "Major5"
+            # ],
             #Otra (falta definir qué pasaría en este caso)
             "Other": ["Other"]
         }
         
-        self.base_rate = 5.0  #Tasa de interés base (%)
+        self.base_rate = 10.0  #Tasa de interés base (%)
         self.study_years = 4  #4 años de carrera
 
     def clean_currency_input(self, value):
-        """Remove commas and dollar signs from input"""
+        #Remove commas and dollar signs from input
         return float(re.sub(r'[^\d.]', '', str(value)))
 
     def get_user_input(self):
-        """Collect all required user input"""
+        #Collect all required user input
         print("=== Student Loan Calculator ===")
         
         #Selección de Universidad (con opciones definidas)
@@ -177,9 +177,12 @@ class StudentLoanCalculator:
             total_interest = (monthly_payment * 10 * 12) - total_loan
             print("\n=== Payment Plan After Graduation ===")
             print(f"Monthly Payment After Graduation: ${monthly_payment:,.2f}")
-            print(f"Total Interest Paid: ${total_interest:,.2f}")
+            print(f"Monthly Percentage of Salary for Loan Payment (ISA): ${monthly_payment:,.2f}") #Missing user salary variable "user_salary"
+            print(f"Total Interest After Graduation: ${total_interest:,.2f}")
             print(f"Total Paid Over 10 Years: ${monthly_payment * 10 * 12:,.2f}")
 
 if __name__ == "__main__":
     calculator = StudentLoanCalculator()
     calculator.run()
+
+#Faltaria excel que puede ver el usuario con pagos mensuales luego de graduacion por mes o si es que elige otro plan de pagos otro excel que los muestre.
