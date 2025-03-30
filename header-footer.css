@@ -110,6 +110,32 @@
     margin-top: 2rem;
 }
 
+@media only screen and (min-width: 1600px) {
+    .navbar-brand .logo {
+        margin-left: -8rem;
+    }
+
+    .navbar-nav {
+        margin-right: 1050px;
+    }
+
+    .home-nav {
+        margin-right: 1752px;
+    }
+
+    .entity-nav {
+        margin-right: 1403px;
+    }
+
+    .country-selector {
+        margin-right: 80px;
+    }
+
+    .text-country {
+        margin-right: 100px;
+    }
+}
+
 /* Opciones del menu */
 .navbar-nav .nav-item .nav-link {
     color: #1d2337;
