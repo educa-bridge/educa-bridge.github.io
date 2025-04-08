@@ -10,3 +10,128 @@ body {
     background-color: rgb(240, 244, 255);
 }
 
+.student-support-section {
+    padding: 4rem 1rem;
+    color: #1d2337;
+    background-color: #fede85d5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Banner */
+.hero-banner {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #ffca4f;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* Buttons */
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #ffca4f;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.cta-button:hover {
+    background: #ffca4f;
+    transform: translateY(-2px);
+}
+
+.secondary-button {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background: white;
+    color: #1d2337;;
+    border: 2px solid #ffca4f;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Loan Calculator CTA */
+.loan-calculator-cta {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* College Resources */
+.college-resources {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.step-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.step-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #ffca4f;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Expert Help */
+.expert-help {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.partner-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.partner-button {
+    padding: 0.6rem 1.5rem;
+    background: #ffca4f;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
