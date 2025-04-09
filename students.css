@@ -10,128 +10,182 @@ body {
     background-color: rgb(240, 244, 255);
 }
 
-.student-support-section {
-    padding: 4rem 1rem;
-    color: #1d2337;
-    background-color: #fede85d5;
+.student-section {
+    padding: 3rem 1rem;
+    background-color: #fff9e8; /* Light yellow background */
 }
 
-.container {
+.student-container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Hero Banner */
-.hero-banner {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.hero-banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.highlight {
-    color: #ffca4f;
-}
-
-.hero-subtitle {
-    font-size: 1.2rem;
+/* ===== Straightforward Hero Section ===== */
+.student-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-bottom: 2rem;
-    color: #555;
 }
 
-/* Buttons */
-.cta-button {
+.student-hero-content {
+    order: 1; /* Content comes first */
+    margin-left: -1rem;
+    margin-top: 2.5rem;
+}
+
+.student-main-title {
+    font-size: 2.2rem;
+    color: #1d2337;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.student-highlight {
+    color: #FDB815;
+    font-weight: 800;
+}
+
+.student-hero-subtitle {
+    font-size: 1.1rem;
+    color: #1d2337;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+/* ===== Simple Button Styles ===== */
+.student-cta-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.student-primary-btn {
     display: inline-block;
-    padding: 0.8rem 2rem;
-    background: #ffca4f;
-    color: white;
-    border-radius: 50px;
+    padding: 0.8rem 1.3rem;
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    color: #1d2337;
+    border-radius: 30px;
+    font-weight: 600;
     text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.2s, background 0.2s;
+    transition: all 0.3s ease;
 }
 
-.cta-button:hover {
-    background: #ffca4f;
-    transform: translateY(-2px);
+.student-primary-btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
 }
 
-.secondary-button {
-    display: inline-block;
-    padding: 0.6rem 1.5rem;
-    background: white;
-    color: #1d2337;;
-    border: 2px solid #ffca4f;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
-/* Loan Calculator CTA */
-.loan-calculator-cta {
+/* ===== Clean Resources Section ===== */
+.student-resources {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 3rem;
-    text-align: center;
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* College Resources */
-.college-resources {
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.student-resources-header {
+    margin-bottom: 2rem;
 }
 
-.steps-grid {
+.student-resources-title {
+    font-size: 1.8rem;
+    color: #1d2337;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.student-resources-intro {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* ===== Clear Steps Grid ===== */
+.student-steps-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-.step-card {
-    background: #f8f9fa;
+.student-step-card {
+    background: #f8f8f8;
     padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #ffca4f;
+}
+
+.student-step-number {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: #ffca4f;
+    color: #1d2337;
+    border-radius: 50%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 1rem;
+}
+
+.student-step-title {
+    font-size: 1.1rem;
+    color: #1d2337;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.student-step-desc {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ===== Simple Expert Help ===== */
+.student-expert-help {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: #f0f4ff;
     border-radius: 8px;
     text-align: center;
 }
 
-.step-number {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: #ffca4f;
-    color: white;
-    border-radius: 50%;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.student-expert-text {
+    font-size: 1rem;
+    color: #1d2337;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
 }
 
-/* Expert Help */
-.expert-help {
-    margin-top: 2rem;
-    text-align: center;
+.student-expert-text strong {
+    color: #FDB815;
 }
 
-.partner-links {
+.student-partner-links {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
-.partner-button {
-    padding: 0.6rem 1.5rem;
-    background: #ffca4f;
+.student-partner-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #1d2337;
     color: white;
-    border-radius: 50px;
+    border-radius: 60px;
+    font-weight: 600;
     text-decoration: none;
-    font-weight: bold;
+    transition: transform 0.2s;
+    margin-bottom: 0.5rem;
+}
+
+.student-partner-btn:hover {
+    transform: translateY(-2px);
 }
