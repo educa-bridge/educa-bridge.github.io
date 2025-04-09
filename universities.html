@@ -118,35 +118,208 @@
          </section>
     </nav>
 
-    <!-- Universities section -->
-    <section>
-        <h1 class="universities-title">Become an EduBridge Partner & Attract Top International Talent</h1>
-        <h4 class="universities-description">Join EduBridge and position your university as a global leader in diversity and academic excellence. With our partnership, every international student you accept will have guaranteed financing, ensuring that financial constraints never prevent them from enrolling.</h4>
-        <div class="benefits-section">
-            <h2 class="universities-partner">Why Partner with EduBridge?</h2>
-            <ul class="universities-benefits">
-                <li>Higher International Enrollment – Secure more international students by eliminating financial barriers.</li>
-                <li>Guaranteed Tuition Payments – We handle the payments, so your university assumes zero financial risk.</li>
-                <li>Access to a High-Quality Student Pool – We connect you with top-tier, motivated students from emerging markets.</li>
-                <li>Increased Retention & Completion Rates – Students who are accepted will follow through with their enrollment.</li>
-                <li>Exclusive Scholarship Opportunities – Partner with us to create volume-based scholarship programs that attract even more students.</li>
-            </ul>
-        </div>
-        <div class="steps-section">
-            <h2 class="universities-works">How It Works</h2>
-            <ul class="universities-steps">
-                <li>1. We sign a strategic partnership agreement with your university.</li>
-                <li>2. EduBridge provides guaranteed financing for international students.</li>
-                <li>3. Your university benefits from a higher yield of enrolled students without financial drop-offs.</li>
-                <li>4. We collaborate on scholarship incentives to drive more applications.</li>
-            </ul>
-        </div>
-        <div class="buttons-section">
-            <a href="#modal-form" class="form-partner">Partner with EduBridge</a>
-            <a href="login.html" class="login-partner">Already a Partner? Log In</a>
-        </div>
-        <div class="modal-form">
-            
+    <!-- Universities Section -->
+    <section class="universities-section">
+        <div class="university-container">
+            <div class="university-hero">
+                <h1 class="university-main-title">Expand Your Global Reach with <span class="university-highlight">EduBridge</span></h1>
+                <p class="university-hero-subtitle">We partner with forward-thinking institutions to unlock global access to education—ensuring that financial limitations never prevent high-potential students from enrolling, succeeding, and graduating.</p>
+            </div>
+
+            <!-- Benefits -->
+            <div class="university-benefits">
+                <h2 class="section-title">Partner Benefits</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon"></div>
+                        <h3>Increase International Enrollment</h3>
+                        <p>Grow your student body by expanding access for qualified international students.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"></div>
+                        <h3>Secure, Guaranteed Tuition</h3>
+                        <p>Receive full tuition payments—reliably and on time—without taking on financial risk.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"></div>
+                        <h3>Access to Top-Tier Talent</h3>
+                        <p>Connect with driven, academically strong students from emerging markets.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"></div>
+                        <h3>Stronger Yield and Retention</h3>
+                        <p>Students with secured financing are more likely to enroll and complete their programs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- How It Works -->
+            <div class="university-process">
+                <h2 class="section-title">How It Works</h2>
+                <div class="process-steps">
+                    <div class="process-card">
+                        <div class="step-number">1</div>
+                        <h3>Strategic Partnership Agreement</h3>
+                        <p>We establish a tailored partnership that aligns with your university’s goals, fostering long-term collaboration and growth.</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="step-number">2</div>
+                        <h3>Guaranteed Financing for Students</h3>
+                        <p>We establish a tailored partnership that aligns with your university’s goals, fostering long-term collaboration and growth.</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="step-number">3</div>
+                        <h3>Higher Enrollment Yield</h3>
+                        <p>Your institution benefits from a steady influx of international students, with fewer financial drop-offs and higher commitment to enrollment.</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="step-number">4</div>
+                        <h3>Collaborative Scholarship Incentives</h3>
+                        <p>We collaborate to design targeted scholarships that attract top students and increase application rates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="university-cta">
+                <button id="partner-toggle" class="primary-btn">Partner with EduBridge</button>
+                <a href="login.html" class="secondary-btn">Partner Log In</a>
+                
+                <!-- University Pre-Registration Form -->
+                <div id="partner-form-container" class="form-container" style="display:none;">
+
+                    <form id="university-form" class="university-form" novalidate>
+                        <div class="form-header">
+                            <h3>University Pre-Registration Form</h3>
+                            <p>Complete this form to begin your partnership journey with EduBridge</p>
+                        </div>
+
+                        <!-- University Information -->
+                        <fieldset class="form-section">
+                            <legend>University Information</legend>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-name">University Name (Official Name)*</label>
+                                    <input type="text" id="university-name" required placeholder="">
+                                    <div class="error-message" id="name-error">Please enter your university name</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-country">Country*</label>
+                                    <select id="university-country" required>
+                                        <option value="">Select Country</option>
+                                        <option value="US">United States</option>
+                                        <option value="MEX">Mexico</option>
+                                        <option value="PER">Peru</option>
+                                        <option value="BZL">Brazil</option>
+                                    </select>
+                                    <div class="error-message" id="country-error">Please select your country</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="university-city">City*</label>
+                                    <input type="text" id="university-city" required placeholder="">
+                                    <div class="error-message" id="city-error">Please enter your city</div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <!-- Primary Contact Information -->
+                        <fieldset class="form-section">
+                            <legend>Primary Contact Information</legend>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-representative">Full Name (University Representative)*</label>
+                                    <input type="text" id="university-representative" required placeholder="">
+                                    <div class="error-message" id="representative-error">Please enter representative name</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="university-position">Position/Title*</label>
+                                    <input type="text" id="university-position" required placeholder="">
+                                    <div class="error-message" id="position-error">Please enter your position</div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-email">Official University Email*</label>
+                                    <input type="email" id="university-email" required placeholder="">
+                                    <div class="error-message" id="email-error">Please enter a valid university email</div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <!-- Interest -->
+                        <fieldset class="form-section">
+                            <legend>Interest</legend>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-interest">Why are you interested in partnering with EduBridge?*</label>
+                                    <select id="university-interest" required>
+                                        <option value="">Select...</option>
+                                        <option value="enrollment">Increase international student enrollment</option>
+                                        <option value="payments">Secure guaranteed tuition payments</option>
+                                        <option value="quality">Access high-quality students from emerging markets</option>
+                                        <option value="retention">Improve retention and completion rates</option>
+                                        <option value="scholarship">Scholarship collaboration opportunities</option>
+                                        <option value="other">Other (please specify)</option>
+                                    </select>
+                                    <div class="error-message" id="interest-error">Please select primary interest</div>
+                                </div>
+                            </div>
+                            <div class="form-row" id="other-reason-container" style="display: none;">
+                                <div class="form-group">
+                                    <label for="other-reason">Please specify*</label>
+                                    <input type="text" id="other-reason" placeholder="Enter your reason">
+                                    <div class="error-message" id="other-reason-error">Please specify your reason</div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <!-- Verification & Supporting Documents -->
+                        <fieldset class="form-section">
+                            <legend>Verification & Supporting Documents</legend>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-documents">Upload a Verification Document (Accreditation certificate, university brochure, or official documentation):*</label>
+                                    <div class="file-upload">
+                                        <input type="file" id="university-documents" required>
+                                        <label for="university-documents" class="file-label">Choose file</label>
+                                        <span class="file-name">No file chosen</span>
+                                    </div>
+                                    <div class="error-message" id="file-error">Please upload a document</div>
+                                    <small>Supported Files: PDF, JPG, PNG</small>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="university-optional">Additional Comments or Questions (Optional)</label>
+                                    <div class="additional-comments">
+                                        <input type="textarea" id="university-optional" required>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </fieldset>
+
+                        <!-- Consent -->
+                        <fieldset class="form-section consent-section">
+                            <div class="form-group">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="university-agreement" required>
+                                    <label for="university-agreement">By submitting this form, you agree that EduBridge may review your application and contact you regarding partnership opportunities.</label>
+                                </div>
+                                <div class="error-message" id="agreement-error">You must agree to continue</div>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-footer">
+                            <button type="submit" class="submit-btn">Submit</button>
+                            <p class="form-note">Fields marked with * are required</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -252,6 +425,35 @@
         window.addEventListener('load', function () {
             document.body.classList.add('fade-in');
             document.body.style.opacity = '1'; // Ensure the body becomes visible
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('partner-toggle');
+            const formContainer = document.getElementById('partner-form-container');
+            
+            toggleButton.addEventListener('click', function() {
+                if (formContainer.style.display === 'none') {
+                    formContainer.style.display = 'block';
+                    toggleButton.textContent = 'Hide Form';
+                } else {
+                    formContainer.style.display = 'none';
+                    toggleButton.textContent = 'Request Partnership Information';
+                }
+            });
+            
+            // Form submission handler
+            const universityForm = document.getElementById('university-form');
+            if (universityForm) {
+                universityForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // Here you would add form submission logic
+                    alert('Thank you for your interest! Our team will contact you shortly.');
+                    formContainer.style.display = 'none';
+                    toggleButton.textContent = 'Request Partnership Information';
+                    universityForm.reset();
+                });
+            }
         });
     </script>
 
