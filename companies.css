@@ -223,6 +223,7 @@ body {
     margin-bottom: 2rem;
     line-height: 1.5;
     font-weight: 400;
+    font-size: 1rem !important;
 }
 
 .form-section-title {
