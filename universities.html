@@ -112,10 +112,8 @@
         </section>
         <!-- Chatbot -->
         <section class="chatbot">
-            <a class="chat-nav" href="chat">
-                <img src="img/chat.png" alt="Chat Icon" class="chat" href="chat">
-            </a>
-         </section>
+            <a class="chat-nav" href="chat" id="chat-page-link"></a>
+        </section>
     </nav>
 
     <!-- Universities Section -->
@@ -456,6 +454,27 @@
             }
         });
     </script>
+    <!-- CHATBOT -->
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h4>EduBridge Assistant</h4>
+            <button class="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-messages">
+            <div class="chatbot-messages">
+                <!-- Empty container, messages will be added by JavaScript -->
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Type your message..." class="chatbot-text-input">
+            <button class="chatbot-send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    
+    <button class="chatbot-toggle">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+    <script src="chatbot.js"></script>
 
 </body>
 </html>
