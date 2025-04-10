@@ -341,7 +341,7 @@ body {
 }
 
 .partners-logos .partners-container img {
-    margin-top: 2rem;
+    margin-top: 0rem;
     object-fit: contain;
     background-color: white;
     border-radius: 10%;
@@ -354,7 +354,7 @@ body {
 /* SECTION #3 - Become an Investor */
 .investors-section {
     background-color: rgb(251, 252, 255);
-    padding: 3.5rem 0;
+    padding: 2rem 0;
 }
 
 .investors-section h2 {

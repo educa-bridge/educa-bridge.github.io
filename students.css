@@ -12,7 +12,7 @@ body {
 
 .student-section {
     padding: 3rem 1rem;
-    background-color: #fff9e8; /* Light yellow background */
+    background-color: #fff9e8;
 }
 
 .student-container {
@@ -20,7 +20,6 @@ body {
     margin: 0 auto;
 }
 
-/* ===== Straightforward Hero Section ===== */
 .student-hero {
     display: flex;
     flex-direction: column;
@@ -29,7 +28,7 @@ body {
 }
 
 .student-hero-content {
-    order: 1; /* Content comes first */
+    order: 1;
     margin-left: -1rem;
     margin-top: 2.5rem;
 }
@@ -54,7 +53,6 @@ body {
     line-height: 1.5;
 }
 
-/* ===== Simple Button Styles ===== */
 .student-cta-container {
     display: flex;
     gap: 1rem;
@@ -79,7 +77,6 @@ body {
     background-color: #ffca4f;
 }
 
-/* ===== Clean Resources Section ===== */
 .student-resources {
     background: white;
     padding: 2rem;
@@ -106,7 +103,6 @@ body {
     line-height: 1.5;
 }
 
-/* ===== Clear Steps Grid ===== */
 .student-steps-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -147,7 +143,6 @@ body {
     line-height: 1.5;
 }
 
-/* ===== Simple Expert Help ===== */
 .student-expert-help {
     margin-top: 3rem;
     padding: 1.5rem;

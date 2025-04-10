@@ -147,7 +147,6 @@
     background-color: #1a252f;
 }
 
-/* Make nav chat icon interactive */
 .chat-nav {
     cursor: pointer;
     transition: transform 0.3s;
@@ -157,7 +156,7 @@
     transform: scale(1.1);
 }
 
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 768px) {
     .chatbot-container {
         width: 300px;

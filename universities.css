@@ -10,7 +10,6 @@ body {
     background-color: rgb(240, 244, 255);
 }
 
-/* ===== Enhanced Universities Section ===== */
 .universities-section {
     padding-top: 5rem;
     background-color: #fff9e8;
@@ -26,7 +25,6 @@ body {
     z-index: 2;
 }
 
-/* Decorative Elements */
 .universities-section::before {
     content: "";
     position: absolute;
@@ -51,7 +49,6 @@ body {
     z-index: 1;
 }
 
-/* Hero Section */
 .university-hero {
     text-align: center;
     margin-bottom: 3rem;
@@ -96,7 +93,6 @@ body {
     opacity: 0.9;
 }
 
-/* Benefits Section */
 .university-benefits {
     padding-top: 1.6rem;
     margin: 5rem 0;
@@ -185,7 +181,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Process Section */
 .university-process {
     margin: 6rem 0;
 }
@@ -252,7 +247,6 @@ body {
     line-height: 1.6;
 }
 
-/* CTA Section */
 .university-cta {
     text-align: center;
     padding: 3rem 2rem;
@@ -325,7 +319,6 @@ body {
     background-color: #404d7d;
 }
 
-/* Form */
 .university-form {
     margin-top: 3rem;
     margin-left: -2rem;
@@ -410,7 +403,6 @@ body {
     background: white;
 }
 
-/* Error Message Styling */
 .error-message {
     color: #e53e3e;
     font-size: 0.85rem;
@@ -428,7 +420,6 @@ body {
     background-color: #fff5f5;
 }
 
-/* File Upload */
 .file-upload {
     display: flex;
     align-items: center;
@@ -458,7 +449,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Checkbox */
 .checkbox-container {
     display: flex;
     align-items: center;
@@ -471,7 +461,6 @@ body {
     accent-color: #FDB815;
 }
 
-/* Submit Button */
 .submit-btn {
     background: #1d2337;
     color: white;
@@ -499,7 +488,6 @@ body {
     text-align: center;
 }
 
-/* Other Reason Container */
 #other-reason-container {
     display: none;
     animation: fadeIn 0.3s ease;

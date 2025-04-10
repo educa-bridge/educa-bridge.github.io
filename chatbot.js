@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "what": "EduBridge is a fintech platform that helps students access affordable education financing options. We connect students with low-interest loans, financial guidance, and academic support to help them achieve their educational goals. Learn more in our <a href='whoweare.html'>About page</a>.",
         "apply": "Any student enrolled or planning to enroll in a partner institution in Latin America (currently Mexico, and soon expanding to Peru and Brazil) is elegible to apply, subject to eligibility cirteria.",
         "difference": "Unlike traditional banks, EduBridge focuses specifically on students. We offer more flexible terms, lower interest rates, and additional support such as financial literacy resources and academic success tools.",
-        "documents": "You'll typically need: \n 1. A valid ID \n 2. Proof of enrollment or acceptance \n 3. Financial information (e.g., guardian income, expenses) \n 4. Academic records",
+        "documents": "You'll typically need:\n\n1. A valid ID\n\n2. Proof of enrollment or acceptance\n\n3. Financial information (e.g., guardian income, expenses)\n\n4. Academic records",
         "long": "Once all required documents are submitted, the approval process usually takes just a few minutes. You'll receive a decision instantly or shortly after -- and we'll keep you updated every step of the way!",
         "secure": "Your information is secure with us. We use industry-standard encryption and comply with data protection laws to keep your personal and financial information safe.",
         "repay": "Yes, you can repay your loan early! There are no penalties for early repayment, and we encourage students to do so if possible to reduce interest.",
@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         //Apply to a loan answers
         "documents": "documents",
+        "which documents": "documents",
         "loan": "loan",
         "finance": "loan",
         "university": "university",
