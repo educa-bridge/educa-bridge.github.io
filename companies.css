@@ -9,3 +9,258 @@ body {
     color: #333;
     background-color: rgb(240, 244, 255);
 }
+
+/* Companies Page Styles - Consistent with Student Page */
+.companies-section {
+    padding: 3rem 1rem;
+    background-color: #f0f4ff;
+}
+
+.companies-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.companies-hero-content {
+    margin-left: -1rem;
+    margin-top: 2.5rem;
+}
+
+.companies-main-title {
+    font-size: 2.2rem;
+    color: #1d2337;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.companies-highlight {
+    color: #FDB815;
+    font-weight: 800;
+}
+
+.companies-hero-subtitle {
+    font-size: 1.1rem;
+    color: #1d2337;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.companies-cta-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.companies-primary-btn {
+    display: inline-block;
+    padding: 0.8rem 1.3rem;
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    color: #1d2337;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.companies-primary-btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
+}
+
+.companies-secondary-btn {
+    display: inline-block;
+    padding: 0.8rem 1.3rem;
+    border: 1px solid #1d2337;
+    background-color: transparent;
+    color: #1d2337;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.companies-secondary-btn:hover {
+    background-color: rgba(29, 35, 55, 0.1);
+}
+
+.companies-resources {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.companies-resources-header {
+    margin-bottom: 2rem;
+}
+
+.companies-resources-title {
+    font-size: 1.8rem;
+    color: #1d2337;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.companies-resources-intro {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.companies-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.companies-step-card {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #FDB815;
+}
+
+.companies-step-number {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: #FDB815;
+    color: #1d2337;
+    border-radius: 50%;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 1rem;
+}
+
+.companies-step-title {
+    font-size: 1.1rem;
+    color: #1d2337;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.companies-step-desc {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.companies-process {
+    margin-top: 3rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.companies-process-title {
+    font-size: 1.8rem;
+    color: #1d2337;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.companies-process-step {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+.companies-process-step .step-number {
+    width: 40px;
+    height: 40px;
+    background-color: #FDB815;
+    color: #1d2337;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.companies-process-step h3 {
+    color: #1d2337;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.companies-process-step p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.companies-partner-form {
+    margin-top: 3rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.companies-form-title {
+    font-size: 1.8rem;
+    color: #1d2337;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.companies-form .form-row {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.companies-form .form-group {
+    flex: 1;
+}
+
+.companies-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #1d2337;
+}
+
+.companies-form input,
+.companies-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.companies-form textarea {
+    min-height: 120px;
+}
+
+.companies-form button[type="submit"] {
+    display: block;
+    margin: 2rem auto 0;
+    padding: 0.8rem 2rem;
+}
+
+@media (max-width: 768px) {
+    .companies-form .form-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .companies-steps-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .companies-main-title {
+        font-size: 1.8rem;
+    }
+}
