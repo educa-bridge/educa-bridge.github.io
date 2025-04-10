@@ -106,7 +106,7 @@
 .navbar-brand .logo {
     height: 55px;
     width: auto;
-    margin-left: 4.7rem;
+    margin-left: 2.1rem;
     margin-top: 2rem;
 }
 
@@ -169,7 +169,7 @@
 .navbar-nav .nav-item .nav-login {
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: 41.4rem;
+    margin-left: 40.8rem;
     border: 1px solid #FDB815;
     background-color: #FDB815;
     font-size: 1rem;
@@ -190,7 +190,7 @@
 .navbar-nav .nav-item .nav-signup {
     position: absolute;
     margin-top: 2.5rem;
-    margin-left: 34.4rem;
+    margin-left: 33.8rem;
     border: 1.4px solid rgb(205, 211, 228);
     font-size: 1rem;
     color: #1d2337;

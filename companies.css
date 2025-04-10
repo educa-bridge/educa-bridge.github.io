@@ -13,7 +13,7 @@ body {
 /* Companies Page Styles - Consistent with Student Page */
 .companies-section {
     padding: 3rem 1rem;
-    background-color: #f0f4ff;
+    background-color: #fff9e8;
 }
 
 .companies-container {
@@ -153,11 +153,14 @@ body {
 }
 
 .companies-process {
-    margin-top: 3rem;
+    margin-top: 2rem;
     background: white;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: auto;
+    margin-left: -1rem;
+    margin-bottom: 2rem;
 }
 
 .companies-process-title {
@@ -198,41 +201,55 @@ body {
     line-height: 1.5;
 }
 
+/* Form Styles */
 .companies-partner-form {
-    margin-top: 3rem;
-    background: white;
-    padding: 2rem;
+    background-color: white;
+    padding: 2.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .companies-form-title {
-    font-size: 1.8rem;
     color: #1d2337;
-    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
     font-weight: 700;
-    text-align: center;
 }
 
-.companies-form .form-row {
-    display: flex;
-    gap: 1.5rem;
+.form-subtitle {
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.form-section-title {
+    color: #1d2337;
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #FDB815;
+}
+
+.form-group {
     margin-bottom: 1.5rem;
 }
 
-.companies-form .form-group {
-    flex: 1;
-}
-
-.companies-form label {
+.form-group label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #1d2337;
 }
 
-.companies-form input,
-.companies-form textarea {
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="url"],
+.form-group textarea {
     width: 100%;
     padding: 0.8rem;
     border: 1px solid #ddd;
@@ -240,27 +257,76 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.companies-form textarea {
-    min-height: 120px;
+.form-row {
+    display: flex;
+    gap: 1.5rem;
 }
 
-.companies-form button[type="submit"] {
+.form-row .form-group {
+    flex: 1;
+}
+
+.checkbox-label {
     display: block;
-    margin: 2rem auto 0;
-    padding: 0.8rem 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #1d2337;
 }
 
-@media (max-width: 768px) {
-    .companies-form .form-row {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .companies-steps-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .companies-main-title {
-        font-size: 1.8rem;
-    }
+.checkbox-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.other-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.other-input {
+    flex: 1;
+    min-width: 200px;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-hint {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.3rem;
+}
+
+.consent-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.companies-tercer-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #FDB815;
+    color: #1d2337;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+}
+
+.companies-tercer-btn:hover {
+    background-color: #ffca4f;
 }

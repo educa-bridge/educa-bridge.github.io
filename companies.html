@@ -147,20 +147,20 @@
                         
                         <div class="companies-step-card">
                             <div class="companies-step-number">2</div>
-                            <h3 class="companies-step-title">Pre-Screened Candidates</h3>
+                            <h3 class="companies-step-title">Pre-Screened & Job-Ready Candidates</h3>
                             <p class="companies-step-desc">Our students are rigorously selected and trained for global workforce success.</p>
                         </div>
                         
                         <div class="companies-step-card">
                             <div class="companies-step-number">3</div>
-                            <h3 class="companies-step-title">Streamlined Hiring</h3>
-                            <p class="companies-step-desc">We connect you with best-fit candidates, reducing recruitment time and costs.</p>
+                            <h3 class="companies-step-title">Streamlined Hiring Process</h3>
+                            <p class="companies-step-desc">We connect you with the best-fit candidates, reducing your recruitment time and costs.</p>
                         </div>
                         
                         <div class="companies-step-card">
                             <div class="companies-step-number">4</div>
-                            <h3 class="companies-step-title">Future-Proof Workforce</h3>
-                            <p class="companies-step-desc">Build an internationally diverse team that drives innovation and growth.</p>
+                            <h3 class="companies-step-title">Future-Proof Your Workforce</h3>
+                            <p class="companies-step-desc">Build a strong, internationally diverse team that drives innovation and growth.</p>
                         </div>
                     </div>
                 </div>
@@ -201,37 +201,118 @@
             </div>
     
             <div class="companies-partner-form" id="partner-form">
-                <h2 class="companies-form-title">Become an EduBridge Partner</h2>
+                <h2 class="companies-form-title">EduBridge Company Pre-Registration Form</h2>
+                <h5 class="form-subtitle">Thank you for your interest in partnering with EduBridge! Please fill out the following information to apply for access to our platform. We will review your request and contact you soon.</h5>
+                
                 <form class="companies-form">
+                    <h3 class="form-section-title">Company Information</h3>
+                    <div class="form-group">
+                        <label for="company-name">Company Name (Official Name)</label>
+                        <input type="text" id="company-name" required>
+                    </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="company-name">Company Name</label>
-                            <input type="text" id="company-name" required>
+                            <label for="country">Country</label>
+                            <input type="text" id="country" required>
                         </div>
                         <div class="form-group">
-                            <label for="industry">Industry</label>
-                            <input type="text" id="industry" required>
+                            <label for="city">City</label>
+                            <input type="text" id="city" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="contact-name">Contact Person</label>
+                        <label for="website">Company Website URL</label>
+                        <input type="url" id="website" placeholder="Example: www.companyname.com">
+                    </div>
+            
+                    <h3 class="form-section-title">Primary Contact Information</h3>
+                    <div class="form-group">
+                        <label for="contact-name">Full Name (Company Representative)</label>
                         <input type="text" id="contact-name" required>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" required>
+                            <label for="position">Position/Title</label>
+                            <input type="text" id="position" placeholder="e.g., HR Manager, Talent Acquisition Director" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone">
+                            <label for="email">Official Company Email Address</label>
+                            <input type="email" id="email" placeholder="Must be a corporate email, e.g., name@company.com" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message">Tell us about your hiring needs</label>
-                        <textarea id="message" rows="4"></textarea>
+                        <label for="phone">Phone Number (with country code)</label>
+                        <input type="tel" id="phone" required>
                     </div>
-                    <button type="submit" class="companies-primary-btn">Submit Application</button>
+            
+                    <h3 class="form-section-title">Hiring & Talent Needs</h3>
+                    <div class="form-group">
+                        <label class="checkbox-label">What type of talent is your company looking for? (Select all that apply)</label>
+                        <div class="checkbox-options">
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="talent-type" value="engineering"> Engineering & Technology
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="talent-type" value="business"> Business & Finance
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="talent-type" value="healthcare"> Healthcare & Life Sciences
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="talent-type" value="marketing"> Marketing & Communications
+                            </label>
+                            <div class="other-option">
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="talent-type" value="other"> Other (please specify)
+                                </label>
+                                <input type="text" id="other-talent" class="other-input">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">Why are you interested in partnering with EduBridge? (Select all that apply)</label>
+                        <div class="checkbox-options">
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="interest-reason" value="talent-pool"> Access to a highly skilled international talent pool
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="interest-reason" value="reduce-costs"> Reduce recruitment time and costs
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="interest-reason" value="pre-screened"> Hire pre-screened, job-ready candidates
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" name="interest-reason" value="diverse-workforce"> Build a globally diverse workforce
+                            </label>
+                            <div class="other-option">
+                                <label class="checkbox-option">
+                                    <input type="checkbox" name="interest-reason" value="other"> Other (please specify)
+                                </label>
+                                <input type="text" id="other-reason" class="other-input">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <h3 class="form-section-title">Verification & Supporting Documents</h3>
+                    <div class="form-group">
+                        <label for="document">Upload a Verification Document</label>
+                        <input type="file" id="document" accept=".pdf,.doc,.docx,.jpg,.png">
+                        <p class="form-hint">(Company registration certificate, official documentation, or hiring policy statement)</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Additional Comments or Questions (Optional)</label>
+                        <textarea id="comments" rows="4"></textarea>
+                    </div>
+            
+                    <div class="form-group consent-group">
+                        <label class="consent-checkbox">
+                            <input type="checkbox" required>
+                            <span>By submitting this form, you agree that EduBridge may review your application and contact you regarding partnership opportunities.</span>
+                        </label>
+                    </div>
+            
+                    <button type="submit" class="companies-tercer-btn">Submit Application</button>
                 </form>
             </div>
         </div>
