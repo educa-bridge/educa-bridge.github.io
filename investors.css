@@ -49,11 +49,12 @@ body {
 }
 
 .investors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .investor-logo {
@@ -65,7 +66,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 100%;
+    width: 180px;
 }
 
 .investor-logo img {
