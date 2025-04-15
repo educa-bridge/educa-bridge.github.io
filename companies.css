@@ -83,7 +83,8 @@ body {
 }
 
 .companies-secondary-btn:hover {
-    background-color: rgba(29, 35, 55, 0.1);
+    background-color: #1d2337;
+    color: white;
 }
 
 .companies-resources {

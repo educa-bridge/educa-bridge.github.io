@@ -9,3 +9,219 @@ body {
     color: #333;
     background-color: rgb(240, 244, 255);
 }
+
+/* Investors Section */
+.investors-section {
+    padding: 4rem 1rem;
+    background-color: #fff9e8;
+}
+
+.investors-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.investors-main-title {
+    font-size: 2.3rem;
+    color: #1d2337;
+    margin-bottom: 2.2rem;
+    margin-top: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.investors-highlight {
+    color: #FDB815;
+    font-weight: 800;
+}
+
+/* Current Investors */
+.current-investors {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.investors-subtitle {
+    font-size: 1.5rem;
+    color: #1d2337;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.investors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.investor-logo {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.investor-logo img {
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.investor-logo:hover img {
+    filter: none;
+    transform: scale(1.05);
+}
+
+/* Investment Opportunity */
+.investment-opportunity {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.investment-header {
+    padding: 2.5rem;
+    background-color: #ffc2357d;
+    color: #1d2337;
+}
+
+.investment-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.investment-title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+}
+
+.investment-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 1300px;
+    margin-bottom: 0rem;
+}
+
+.investment-benefits {
+    padding: 3rem;
+}
+
+.benefits-title {
+    font-size: 1.6rem;
+    color: #1d2337;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .benefits-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    line-height: 1.5;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(253, 184, 21, 0.1);
+}
+
+.benefit-icon {
+    color: #FDB815;
+    font-weight: bold;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.investment-cta {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+}
+
+.cta-text {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #1d2337;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+}
+
+.primary-btn {
+    display: inline-block;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    border: 1px solid #FDB815;
+    background-color: #FDB815;
+    color: #1d2337;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.287);
+    border: 1px solid #ffca4f;
+    background-color: #ffca4f;
+}
+
+.secondary-btn {
+    display: inline-block;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    border: 0.5px solid #1d2337;
+    background-color: transparent;
+    color: #1d2337;
+    border-radius: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid #1d2337;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.secondary-btn:hover {
+    background-color: #1d2337;
+    color: white;
+    transform: translateY(-2px);
+}
