@@ -119,15 +119,15 @@
 
     <section class="container d-flex justify-content-center align-items-center" style="min-height: 90vh; margin-top: 6rem;">
         <div class="form-box active" id="loginBox">
-          <h2>Iniciar sesión</h2>
+          <h2>Log In</h2>
           <form id="loginForm">
             <input type="text" id="user" placeholder="Nombre de usuario" required>
             <input type="password" id="pass" placeholder="Contraseña" required>
             <div id="errorMsg" class="error-message" style="display:none;">
-              Usuario o contraseña incorrectos.
+              Incorrect username or password.
             </div>
-            <button type="submit">Iniciar sesión</button>
-            <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+            <button type="submit">Log In</button>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
           </form>
         </div>
       </section>
@@ -169,7 +169,7 @@
         else {
             errorBox.style.display = "block";
         }
-        
+
         });
       </script>
     
