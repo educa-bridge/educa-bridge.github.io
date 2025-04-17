@@ -9,10 +9,10 @@
     <style>
         :root {
             --primary-color: #FDB815;
-            --secondary-color: #119DA4;
+            --secondary-color: #1d2337;
             --accent-color: #6D9DC5;
-            --light-color: #F2F5FF;
-            --dark-color: #253237;
+            --light-color: rgb(251, 252, 255);
+            --dark-color: #333;
         }
         body {
             font-family: 'Poppins', sans-serif;
@@ -92,7 +92,163 @@
             background-color: var(--secondary-color);
             color: white;
         }
+    /* Small Screens (Phones) */
+    @media (max-width: 576px) {
+        body {
+            padding-top: 70px;
+        }
+
+        .navbar-brand {
+            font-size: 1.2rem;
+        }
+
+        .registro-card {
+            margin: 0 1rem;
+        }
+
+        .card-header {
+            font-size: 1rem;
+            padding: 15px;
+        }
+
+        .progress-step {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .progress-step::before {
+            display: none;
+        }
+
+        .step {
+            width: 25px;
+            height: 25px;
+            font-size: 0.8rem;
+        }
+
+        .form-control {
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            font-size: 0.9rem;
+        }
+    }
+
+    /* Medium Screens (Tablets) */
+    @media (min-width: 577px) and (max-width: 768px) {
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        .registro-card {
+            margin: 0 2rem;
+        }
+
+        .card-header {
+            font-size: 1.2rem;
+            padding: 20px;
+        }
+
+        .progress-step {
+            margin-bottom: 20px;
+        }
+
+        .step {
+            width: 28px;
+            height: 28px;
+            font-size: 1rem;
+        }
+
+        .form-control {
+            font-size: 1rem;
+        }
+
+        .btn {
+            font-size: 1rem;
+        }
+    }
+
+    /* Large Screens (Desktops) */
+    @media (min-width: 769px) {
+        .navbar-brand {
+            font-size: 1.8rem;
+        }
+
+        .registro-card {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        .card-header {
+            font-size: 1.5rem;
+            padding: 25px;
+        }
+
+        .progress-step {
+            margin-bottom: 30px;
+        }
+
+        .step {
+            width: 30px;
+            height: 30px;
+            font-size: 1.2rem;
+        }
+
+        .form-control {
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            font-size: 1.1rem;
+        }
+    }
+
+    /* Extra Large Screens (TVs y pantallas grandes) */
+    @media (min-width: 1300px) {
+        body {
+            font-size: 1.1rem;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+        }
+
+        .registro-card {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .card-header {
+            font-size: 1.8rem;
+            padding: 30px;
+        }
+
+        .progress-step {
+            margin-bottom: 40px;
+        }
+
+        .step {
+            width: 35px;
+            height: 35px;
+            font-size: 1.4rem;
+        }
+
+        .form-control {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            font-size: 1.2rem;
+            padding: 15px 25px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    }
     </style>
+
 </head>
 <body>
     <!-- Navbar -->

@@ -61,10 +61,10 @@ $stmt_estudantes->close();
     <style>
         :root {
             --primary-color: #FDB815;
-            --secondary-color: #119DA4;
+            --secondary-color: #1d2337;
             --accent-color: #6D9DC5;
-            --light-color: #F2F5FF;
-            --dark-color: #253237;
+            --light-color: rgb(251, 252, 255);
+            --dark-color: #333;
             --success-color: #28a745;
             --warning-color: #ffc107;
             --danger-color: #dc3545;

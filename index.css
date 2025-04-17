@@ -493,3 +493,288 @@ body {
     font-weight: 500;
     color: #1d2337d0;
 }
+
+/* Estilos para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 576px) {
+    body {
+        padding-top: 50px;
+    }
+
+    .navbar .navbar-brand img {
+        width: 120px;
+    }
+
+    .carousel-content h3 {
+        font-size: 1.5rem;
+        margin-top: -15rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+    .carousel-content p {
+        font-size: 1rem;
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+    .get-started a {
+        margin-left: 1rem;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .partners-logos .partners-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .partners-logos .partners-container img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .investors-section h2 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .investors-section p {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .investors-section form {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .plans h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .plans h5 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .plan-block {
+        margin: 1rem 0;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .carousel-content h3 {
+        font-size: 1.8rem;
+        margin-top: -18rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .carousel-content p {
+        font-size: 1.1rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .get-started a {
+        margin-left: 2rem;
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .partners-logos .partners-container {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .partners-logos .partners-container img {
+        max-width: 120px;
+        height: auto;
+    }
+
+    .investors-section h2 {
+        font-size: 1.8rem;
+        margin-left: 2rem;
+    }
+
+    .investors-section p {
+        font-size: 1.1rem;
+        margin-left: 2rem;
+    }
+
+    .investors-section form {
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .plans h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .plans h5 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .plan-block {
+        margin: 1.5rem 0;
+    }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media only screen and (min-width: 769px) {
+    .carousel-content h3 {
+        font-size: 2rem;
+        margin-top: -20rem;
+        margin-left: 5rem;
+        width: 70%;
+    }
+
+    .carousel-content p {
+        font-size: 1.2rem;
+        margin-left: 5rem;
+        width: 70%;
+    }
+
+    .get-started a {
+        margin-left: 5rem;
+        width: 200px;
+        font-size: 1.2rem;
+    }
+
+    .partners-logos .partners-container {
+        gap: 2rem;
+    }
+
+    .partners-logos .partners-container img {
+        max-width: 140px;
+        height: auto;
+    }
+
+    .investors-section h2 {
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+
+    .investors-section p {
+        font-size: 1.2rem;
+        margin-left: 5rem;
+    }
+
+    .investors-section form {
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .plans h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .plans h5 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .plan-block {
+        margin: 2rem 0;
+    }
+}
+
+/* Extra Large Screens (TVs, 4K monitors) */
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 1.2rem; /* Slightly larger font for readability */
+    }
+
+    .navbar .navbar-brand img {
+        width: 150px; /* Larger logo for better visibility */
+    }
+
+    .carousel-content h3 {
+        font-size: 2.5rem; /* Larger font size for headings */
+        margin-top: -22rem;
+        margin-left: 10rem;
+        width: 60%;
+    }
+
+    .carousel-content p {
+        font-size: 1.5rem; /* Larger font size for paragraphs */
+        margin-left: 10rem;
+        width: 60%;
+    }
+
+    .get-started a {
+        margin-left: 10rem;
+        width: 220px;
+        font-size: 1.5rem;
+        padding: 12px 24px;
+    }
+
+    .partners-logos .partners-container img {
+        max-width: 180px; /* Larger partner logos */
+        height: auto;
+    }
+
+    .investors-section h2 {
+        font-size: 2.5rem; /* Larger heading for investors section */
+        margin-left: 6rem;
+    }
+
+    .investors-section p {
+        font-size: 1.5rem; /* Larger paragraph text */
+        margin-left: 6rem;
+    }
+
+    .investors-section form {
+        margin-left: 6rem;
+        margin-top: 2rem;
+        max-width: 600px; /* Wider form for better layout */
+    }
+
+    .plans h3 {
+        font-size: 2.5rem; /* Larger heading for plans section */
+        text-align: center;
+    }
+
+    .plans h5 {
+        font-size: 1.5rem; /* Larger subheading for plans section */
+        text-align: center;
+    }
+
+    .plan-block {
+        margin: 2.5rem 0; /* Increased spacing between plan blocks */
+    }
+
+    .plan-block h4 {
+        font-size: 1.5rem; /* Larger text for plan descriptions */
+    }
+
+    .plan-block ul {
+        font-size: 1.2rem; /* Larger font size for list items */
+    }
+
+    .learn-more-btn {
+        font-size: 1.3rem; /* Larger button text */
+        padding: 12px 24px;
+    }
+
+    .footer .footer-section h4 {
+        font-size: 1.8rem; /* Larger footer section headings */
+    }
+
+    .footer .footer-section ul li a {
+        font-size: 1.3rem; /* Larger footer links */
+    }
+
+    .footer .footer-logo {
+        width: 200px; /* Larger footer logo */
+    }
+
+    .footer .social-links li a i {
+        font-size: 1.8rem; /* Larger social media icons */
+    }
+}
