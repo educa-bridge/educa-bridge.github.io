@@ -150,12 +150,26 @@
             u => u.user === user && u.pass === pass
           );
     
-          if (validUser) {
+        if (validUser) {
             localStorage.setItem("usuarioActivo", JSON.stringify(validUser));
-            window.location.href = "mainpage.html";
-          } else {
+    
+            // Redirigir según el usuario
+            switch (validUser.user) {
+                case "admin":
+                    window.location.href = "painel_admin.php";
+                    break;
+                case "demo":
+                    window.location.href = "painel_estudante.php"; // Ejemplo para un usuario de prueba
+                    break;
+                default:
+                    window.location.href = "painel.php"; // Redirigir a un painel genérico si no coincide
+                    break;
+            }   
+        } 
+        else {
             errorBox.style.display = "block";
-          }
+        }
+        
         });
       </script>
     
