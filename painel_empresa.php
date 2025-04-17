@@ -62,7 +62,7 @@ $mensagem = '';
     <style>
         :root {
             --primary-color: #FDB815;
-            --secondary-color: #119DA4;
+            --secondary-color: #F5DB9EFF;
             --accent-color: #6D9DC5;
             --light-color: #F2F5FF;
             --dark-color: #253237;
