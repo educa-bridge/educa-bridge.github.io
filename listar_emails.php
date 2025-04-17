@@ -28,7 +28,7 @@ $resultado = $conn->query($query);
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .card-header {
-            background-color: #3066BE;
+            background-color: #FDB815;
             color: white;
             border-radius: 10px 10px 0 0 !important;
             padding: 15px 20px;

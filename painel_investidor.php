@@ -60,7 +60,7 @@ $stmt_estudantes->close();
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
-            --primary-color: #3066BE;
+            --primary-color: #FDB815;
             --secondary-color: #119DA4;
             --accent-color: #6D9DC5;
             --light-color: #F2F5FF;

@@ -64,7 +64,7 @@ $result_atividades = $conn->query($sql_atividades);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
         :root {
-            --primary-color: #3066BE;
+            --primary-color: #FDB815;
             --secondary-color: #119DA4;
             --accent-color: #6D9DC5;
             --light-color: #F2F5FF;

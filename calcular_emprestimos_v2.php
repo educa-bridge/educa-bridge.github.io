@@ -203,7 +203,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #3066BE;
+            --primary-color: #FDB815;
             --secondary-color: #119DA4;
             --accent-color: #6D9DC5;
             --light-color: #F2F5FF;
