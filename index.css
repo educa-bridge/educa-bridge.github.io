@@ -625,7 +625,7 @@ body {
 }
 
 /* Estilos para pantallas grandes (escritorios) */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
     .carousel-content h3 {
         font-size: 2rem;
         margin-top: -20rem;
@@ -685,7 +685,7 @@ body {
 }
 
 /* Extra Large Screens (TVs, 4K monitors) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1550px) {
     body {
         font-size: 1.2rem; /* Slightly larger font for readability */
     }
