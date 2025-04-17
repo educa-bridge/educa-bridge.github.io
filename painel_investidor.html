@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Investidor - EduBridge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #3066BE;
+            --secondary-color: #119DA4;
+            --accent-color: #6D9DC5;
+            --light-color: #F2F5FF;
+            --dark-color: #253237;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+        }
+        .sidebar {
+            background-color: var(--primary-color);
+            color: white;
+            min-height: 100vh;
+            position: fixed;
+            width: 260px;
+        }
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.75rem 1.25rem;
+            border-radius: 6px;
+            margin: 0.25rem 0;
+        }
+        .sidebar .nav-link:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .sidebar .nav-link.active {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .sidebar .nav-link i {
+            margin-right: 10px;
+        }
+        .main-content {
+            margin-left: 260px;
+            padding: 2rem;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+            border: none;
+        }
+        .stat-card {
+            text-align: center;
+            padding: 15px;
+        }
+        .stat-card .stat-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .stat-card .stat-value {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .stat-card .stat-label {
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar d-flex flex-column p-3">
+        <div class="d-flex align-items-center mb-4 mt-2 px-2">
+            <i class="bi bi-bank me-2 fs-4"></i>
+            <h4 class="mb-0">EduBridge</h4>
+        </div>
+        <p class="text-white-50 small px-2 mb-2">MENU PRINCIPAL</p>
+        <ul class="nav flex-column mb-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">
+                    <i class="bi bi-speedometer2"></i> Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="buscar_estudantes.html" class="nav-link">
+                    <i class="bi bi-search"></i> Buscar Estudantes
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="bi bi-graph-up"></i> Relatórios
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="bi bi-chat-dots"></i> Mensagens
+                </a>
+            </li>
+            <li class="nav-item mt-4">
+                <a href="logout.php" class="nav-link text-danger">
+                    <i class="bi bi-box-arrow-left"></i> Sair
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="mb-0">Dashboard do Investidor</h2>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="row mb-4">
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card">
+                    <div class="stat-icon text-primary">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="stat-value" id="total-estudantes">0</div>
+                    <div class="stat-label">Estudantes em Destaque</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card">
+                    <div class="stat-icon text-success">
+                        <i class="bi bi-mortarboard"></i>
+                    </div>
+                    <div class="stat-value" id="gpa-medio">0.0</div>
+                    <div class="stat-label">GPA Médio</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card">
+                    <div class="stat-icon text-info">
+                        <i class="bi bi-building"></i>
+                    </div>
+                    <div class="stat-value" id="total-universidades">0</div>
+                    <div class="stat-label">Universidades</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card">
+                    <div class="stat-icon text-warning">
+                        <i class="bi bi-book"></i>
+                    </div>
+                    <div class="stat-value" id="total-cursos">0</div>
+                    <div class="stat-label">Cursos</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Students -->
+        <div class="card">
+            <div class="card-header">
+                <i class="bi bi-star me-2"></i>Estudantes em Destaque
+            </div>
+            <div class="card-body">
+                <div id="estudantes-destaque" class="row">
+                    <!-- Estudantes serão carregados aqui -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simular dados recebidos do backend
+        const estudantesDestaque = [
+            { nome: "João Silva", universidade: "Universidade A", curso: "Engenharia", gpa: 3.8 },
+            { nome: "Maria Oliveira", universidade: "Universidade B", curso: "Medicina", gpa: 3.9 },
+            { nome: "Carlos Santos", universidade: "Universidade C", curso: "Direito", gpa: 3.7 }
+        ];
+
+        // Atualizar estatísticas
+        document.getElementById("total-estudantes").textContent = estudantesDestaque.length;
+        document.getElementById("gpa-medio").textContent = (
+            estudantesDestaque.reduce((sum, estudante) => sum + estudante.gpa, 0) / estudantesDestaque.length
+        ).toFixed(1);
+        document.getElementById("total-universidades").textContent = new Set(estudantesDestaque.map(e => e.universidade)).size;
+        document.getElementById("total-cursos").textContent = new Set(estudantesDestaque.map(e => e.curso)).size;
+
+        // Preencher estudantes em destaque
+        const estudantesContainer = document.getElementById("estudantes-destaque");
+        estudantesDestaque.forEach(estudante => {
+            const col = document.createElement("div");
+            col.className = "col-lg-4 mb-3";
+            col.innerHTML = `
+                <div class="card student-card">
+                    <div class="card-body">
+                        <h5 class="card-title">${estudante.nome}</h5>
+                        <p class="card-text">${estudante.universidade} - ${estudante.curso}</p>
+                        <p class="card-text"><strong>GPA:</strong> ${estudante.gpa}</p>
+                        <a href="#" class="btn btn-primary btn-sm">Ver Perfil</a>
+                    </div>
+                </div>
+            `;
+            estudantesContainer.appendChild(col);
+        });
+    </script>
+</body>
+</html>
