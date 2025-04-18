@@ -399,7 +399,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                             </button>
                                         </div>
                                         
-                                        <div class="text-center">
                                             <p class="mb-0 text-muted">Don't have an account?</p>
                                             <a href="cadastro.html" class="btn btn-outline-primary mt-2">
                                                 <i class="bi bi-person-plus me-2"></i>Sign up

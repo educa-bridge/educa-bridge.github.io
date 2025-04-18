@@ -4,7 +4,7 @@ error_reporting(0);
 ini_set('display_errors', 0);
 
 // Inclui a conexão com o banco de dados
-include 'conexao.php';
+include 'config.php'; // Conexión a la base de datos
 
 // Inicializa a resposta
 $resposta = [

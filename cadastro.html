@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - EduBridge</title>
+    <title>Register - EduBridge</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
@@ -263,10 +263,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Voltar para Home</a>
+                        <a class="nav-link" href="index.html">Back to Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary ms-2" href="login.php">Já tenho uma conta</a>
+                        <a class="btn btn-outline-primary ms-2" href="login.php">Already have an account?</a>
                     </li>
                 </ul>
             </div>
@@ -278,7 +278,7 @@
             <div class="col-md-8">
                 <div class="card registro-card">
                     <div class="card-header">
-                        <h4 class="mb-0"><i class="bi bi-person-plus-fill me-2"></i>Cadastre-se no EduBridge</h4>
+                        <h4 class="mb-0"><i class="bi bi-person-plus-fill me-2"></i>Register on EduBridge</h4>
                     </div>
                     <div class="card-body p-4">
                         <div class="progress-step mb-4">
@@ -293,21 +293,21 @@
 
                             <!-- Step 1: Basic Information -->
                             <div class="step-content" id="step1-content">
-                                <h5 class="card-title mb-4">Informações Básicas</h5>
+                                <h5 class="card-title mb-4">Basic Information</h5>
                                 
                                 <div class="row mb-3">
                                     <div class="col-md-6">
-                                        <label for="nome" class="form-label">Nome <span class="text-danger">*</span></label>
+                                        <label for="nome" class="form-label">First Name <span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="nome" name="nome" required>
                                         <div class="invalid-feedback">
-                                            Por favor, informe seu nome.
+                                            Please provide your first name.
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="sobrenome" class="form-label">Sobrenome <span class="text-danger">*</span></label>
+                                        <label for="sobrenome" class="form-label">Last Name <span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="sobrenome" name="sobrenome" required>
                                         <div class="invalid-feedback">
-                                            Por favor, informe seu sobrenome.
+                                            Please provide your last name.
                                         </div>
                                     </div>
                                 </div>
@@ -316,141 +316,141 @@
                                     <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
                                     <input type="email" class="form-control" id="email" name="email" required>
                                     <div class="invalid-feedback">
-                                        Por favor, informe um email válido.
+                                        Please provide a valid email.
                                     </div>
                                 </div>
                                 
                                 <div class="mb-3">
-                                    <label for="telefone" class="form-label">Telefone</label>
+                                    <label for="telefone" class="form-label">Phone</label>
                                     <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(DDD) 99999-9999">
-                                    <div class="form-text">Opcional, mas recomendado para comunicações importantes.</div>
+                                    <div class="form-text">Optional, but recommended for important communications.</div>
                                 </div>
                                 
                                 <div class="d-flex justify-content-end">
-                                    <button type="button" class="btn btn-primary next-step" data-step="1">Próximo <i class="bi bi-arrow-right"></i></button>
+                                    <button type="button" class="btn btn-primary next-step" data-step="1">Next <i class="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
 
                             <!-- Step 2: Profile Information -->
                             <div class="step-content d-none" id="step2-content">
-                                <h5 class="card-title mb-4">Perfil do Usuário</h5>
+                                <h5 class="card-title mb-4">User Profile</h5>
                                 
                                 <div class="mb-3">
-                                    <label for="categoria" class="form-label">Qual a sua relação com o EduBridge? <span class="text-danger">*</span></label>
+                                    <label for="categoria" class="form-label">What is your relationship with EduBridge? <span class="text-danger">*</span></label>
                                     <select class="form-select" id="categoria" name="categoria" required>
-                                        <option value="" selected disabled>Selecione uma opção</option>
-                                        <option value="estudante">Sou Estudante buscando financiamento</option>
-                                        <option value="investidor">Sou Investidor interessado em financiar estudantes</option>
-                                        <option value="universidade">Represento uma Universidade</option>
-                                        <option value="empresa">Represento uma Empresa</option>
+                                        <option value="" selected disabled>Select an option</option>
+                                        <option value="estudante">I am a Student seeking funding</option>
+                                        <option value="investidor">I am an Investor interested in funding students</option>
+                                        <option value="universidade">I represent a University</option>
+                                        <option value="empresa">I represent a Company</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        Por favor, selecione uma opção.
+                                        Please select an option.
                                     </div>
                                 </div>
                                 
                                 <!-- Conditional fields based on categoria -->
                                 <div id="estudante-fields" class="categoria-fields d-none">
                                     <div class="mb-3">
-                                        <label for="universidade" class="form-label">Universidade</label>
+                                        <label for="universidade" class="form-label">University</label>
                                         <input type="text" class="form-control" id="universidade" name="universidade">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="curso" class="form-label">Curso</label>
+                                        <label for="curso" class="form-label">Major</label>
                                         <input type="text" class="form-control" id="curso" name="curso">
                                     </div>
                                 </div>
                                 
                                 <div id="investidor-fields" class="categoria-fields d-none">
                                     <div class="mb-3">
-                                        <label for="area_interesse" class="form-label">Áreas de interesse</label>
+                                        <label for="area_interesse" class="form-label">Areas of Interest</label>
                                         <select class="form-select" multiple id="area_interesse" name="area_interesse[]">
-                                            <option value="engenharia">Engenharia</option>
-                                            <option value="medicina">Medicina</option>
-                                            <option value="direito">Direito</option>
-                                            <option value="tecnologia">Tecnologia</option>
-                                            <option value="negocios">Negócios</option>
-                                            <option value="artes">Artes e Humanidades</option>
+                                            <option value="engenharia">Engineering</option>
+                                            <option value="medicina">Medicine</option>
+                                            <option value="direito">Law</option>
+                                            <option value="tecnologia">Technology</option>
+                                            <option value="negocios">Business</option>
+                                            <option value="artes">Arts & Humanities</option>
                                         </select>
-                                        <div class="form-text">Opcional. Segure CTRL para selecionar múltiplos.</div>
+                                        <div class="form-text">Optional. Hold CTRL to select multiple options.</div>
                                     </div>
                                 </div>
                                 
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn btn-outline-primary prev-step" data-step="2"><i class="bi bi-arrow-left"></i> Anterior</button>
-                                    <button type="button" class="btn btn-primary next-step" data-step="2">Próximo <i class="bi bi-arrow-right"></i></button>
+                                    <button type="button" class="btn btn-outline-primary prev-step" data-step="2"><i class="bi bi-arrow-left"></i> Back</button>
+                                    <button type="button" class="btn btn-primary next-step" data-step="2">Next <i class="bi bi-arrow-right"></i></button>
                                 </div>
                             </div>
 
                             <!-- Step 3: Account Security -->
                             <div class="step-content d-none" id="step3-content">
-                                <h5 class="card-title mb-4">Segurança da Conta</h5>
+                                <h5 class="card-title mb-4">Account Security</h5>
                                 
                                 <div class="mb-3">
-                                    <label for="senha" class="form-label">Senha <span class="text-danger">*</span></label>
+                                    <label for="senha" class="form-label">Password <span class="text-danger">*</span></label>
                                     <div class="input-group">
                                         <input type="password" class="form-control" id="senha" name="senha" required minlength="8">
                                         <button class="btn btn-outline-secondary toggle-password" type="button"><i class="bi bi-eye"></i></button>
                                     </div>
                                     <div class="invalid-feedback">
-                                        A senha deve ter pelo menos 8 caracteres.
+                                        The password must be at least 8 characters long.
                                     </div>
                                     <div class="form-text">
                                         <div class="password-strength mt-2">
-                                            <small>Força da senha:</small>
+                                            <small>Password strength:</small>
                                             <div class="progress" style="height: 5px;">
                                                 <div class="progress-bar" role="progressbar" style="width: 0%"></div>
                                             </div>
                                         </div>
                                         <ul class="small mt-2">
-                                            <li id="length" class="text-muted">Mínimo de 8 caracteres</li>
-                                            <li id="uppercase" class="text-muted">Pelo menos uma letra maiúscula</li>
-                                            <li id="lowercase" class="text-muted">Pelo menos uma letra minúscula</li>
-                                            <li id="number" class="text-muted">Pelo menos um número</li>
-                                            <li id="special" class="text-muted">Pelo menos um caractere especial</li>
+                                            <li id="length" class="text-muted">Minimum of 8 characters</li>
+                                            <li id="uppercase" class="text-muted">At least one uppercase letter</li>
+                                            <li id="lowercase" class="text-muted">At least one lowercase letter</li>
+                                            <li id="number" class="text-muted">At least one number</li>
+                                            <li id="special" class="text-muted">At least one special character</li>
                                         </ul>
                                     </div>
                                 </div>
                                 
                                 <div class="mb-3">
-                                    <label for="confirmar_senha" class="form-label">Confirmar Senha <span class="text-danger">*</span></label>
+                                    <label for="confirmar_senha" class="form-label">Confirm Password <span class="text-danger">*</span></label>
                                     <div class="input-group">
                                         <input type="password" class="form-control" id="confirmar_senha" name="confirmar_senha" required>
                                         <button class="btn btn-outline-secondary toggle-password" type="button"><i class="bi bi-eye"></i></button>
                                     </div>
                                     <div class="invalid-feedback">
-                                        As senhas não conferem.
+                                        Passwords do not match.
                                     </div>
                                 </div>
                                 
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="termos" name="termos" required>
-                                    <label class="form-check-label" for="termos">Concordo com os <a href="#" target="_blank">Termos de Serviço</a> e a <a href="#" target="_blank">Política de Privacidade</a> <span class="text-danger">*</span></label>
+                                    <label class="form-check-label" for="termos">I agree to the <a href="#" target="_blank">Terms of Service</a> e a <a href="#" target="_blank">Privacy Policy</a> <span class="text-danger">*</span></label>
                                     <div class="invalid-feedback">
-                                        Você deve concordar com os termos para continuar.
+                                        You must agree to the terms to continue.
                                     </div>
                                 </div>
                                 
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
-                                    <label class="form-check-label" for="newsletter">Desejo receber atualizações e novidades por email</label>
+                                    <label class="form-check-label" for="newsletter">I want to receive updates and news via email</label>
                                 </div>
                                 
                                 <div class="alert alert-info" role="alert">
-                                    <i class="bi bi-info-circle"></i> Ao se cadastrar, você reconhece que leu e entendeu nossa política de privacidade e uso de dados.
+                                    <i class="bi bi-info-circle"></i> By registering, you acknowledge that you have read and understood our privacy policy and data usage terms.
                                 </div>
                                 
                                 <div id="form-success" class="alert alert-success d-none" role="alert"></div>
                                 
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn btn-outline-primary prev-step" data-step="3"><i class="bi bi-arrow-left"></i> Anterior</button>
-                                    <button type="submit" class="btn btn-success"><i class="bi bi-check2-circle"></i> Finalizar Cadastro</button>
+                                    <button type="button" class="btn btn-outline-primary prev-step" data-step="3"><i class="bi bi-arrow-left"></i> Back</button>
+                                    <button type="submit" class="btn btn-success"><i class="bi bi-check2-circle"></i> Finish Registering</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="card-footer bg-white text-center py-3">
-                        <p class="mb-0">Já tem uma conta? <a href="login.php" class="text-decoration-none">Faça login</a></p>
+                        <p class="mb-0">Already have an account? <a href="login.php" class="text-decoration-none">Log In</a></p>
                     </div>
                 </div>
             </div>
@@ -458,7 +458,7 @@
     </div>
 
     <footer class="bg-white text-center p-3 mt-5">
-        <p class="text-muted mb-0">&copy; 2025 EduBridge. Todos os direitos reservados.</p>
+        <p class="text-muted mb-0">&copy; 2025 EduBridge. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
