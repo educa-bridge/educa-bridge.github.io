@@ -153,6 +153,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="chatbot.css">
 
     <style>
+        :root {
+            --primary-color: #FDB815;
+            --secondary-color: #1d2337;
+            --accent-color: #6D9DC5;
+            --light-color: rgb(251, 252, 255);
+            --dark-color: #333;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --info-color: #17a2b8;
+        }
         body {
             background: var(--light-color);
             min-height: 100vh;
