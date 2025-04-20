@@ -603,7 +603,7 @@
             const confirmarSenha = document.getElementById('confirmar_senha');
             confirmarSenha.addEventListener('input', function() {
                 if (this.value !== passwordInput.value) {
-                    this.setCustomValidity('As senhas não conferem');
+                    this.setCustomValidity('Passwords do not match');
                 } else {
                     this.setCustomValidity('');
                 }
@@ -623,7 +623,7 @@
                 const submitButton = this.querySelector('button[type="submit"]');
                 const originalText = submitButton.innerHTML;
                 submitButton.disabled = true;
-                submitButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Cadastrando...';
+                submitButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Registering...';
                 
                 // En caso de que la redirección del servidor falle, capturaremos la respuesta JSON
                 const formData = new FormData(this);
@@ -644,7 +644,7 @@
                     
                     // Mostrar mensaje de error genérico
                     const errorDiv = document.getElementById('form-error');
-                    errorDiv.textContent = 'Houve um erro ao processar seu cadastro. Por favor, tente novamente.';
+                    errorDiv.textContent = 'There was an error when processing your registration. Please try again.';
                     errorDiv.classList.remove('d-none');
                     errorDiv.scrollIntoView({ behavior: 'smooth' });
                     
